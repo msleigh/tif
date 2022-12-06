@@ -1,0 +1,907 @@
+[
+    {
+        "content": "In #python:\n\n   \ud835\ude96\ud835\udea2_\ud835\ude9c\ud835\ude8e\ud835\ude9a\ud835\ude9e\ud835\ude8e\ud835\ude97\ud835\ude8c\ud835\ude8e.\ud835\ude8c\ud835\ude98\ud835\ude9e\ud835\ude97\ud835\ude9d(\ud835\udea1)\n\nreturns the number of times the element \ud835\udea1 appears in the sequence \ud835\ude96\ud835\udea2_\ud835\ude9c\ud835\ude8e\ud835\ude9a\ud835\ude9e\ud835\ude8e\ud835\ude97\ud835\ude8c\ud835\ude8e (which can be a list, tuple, string)",
+        "id": 0,
+        "status": "posted"
+    },
+    {
+        "content": "Inside a #bash script, redirect all subsequent output to a file:\n\n    exec > output.log",
+        "id": 1,
+        "status": "posted"
+    },
+    {
+        "content": "Best practices for scientific computing: https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.1001745&type=printable",
+        "id": 2,
+        "status": "posted"
+    },
+    {
+        "content": "Ternary operator in #python:\n\n    a if condition else b",
+        "id": 3,
+        "status": "posted"
+    },
+    {
+        "content": "Make a named pipe in #bash:\n\n    mkfifo <name>\n\nor:\n\n    mknod -p <name>\n\n    $ f=$(mktemp -u)\n    $ mkfifo $f\n    $ { seq 5 > $f; } &\n    [1] 16463\n    $ while read line ; do echo \"Read $line\"; done < $f\n    Read 1\n    Read 2\n    Read 3\n    Read 4\n    Read 5",
+        "id": 4,
+        "status": "posted"
+    },
+    {
+        "content": "Find null values in a Pandas dataframe:\n\n    df.isnull()\n\nReplace them with zeros:\n\n    df.filxna(0)\n\nFill with previous value:\n\n     df.filna(method='ffill')\n\nBackfill:\n\n    df.filna(method='bfill')\n\nFill with the mean:\n\n    df.filna(method=df.mean())\n\n(and similar for median, min, max). This operation is column-wise.\n\nDrop rows containing missing values from a Pandas dataframe:\n\n    df.dropna(axis = 0)\n\nor drop columns:\n\n    df.dropna(axis = 1)",
+        "id": 5,
+        "status": "posted"
+    },
+    {
+        "content": "The `trap` command in a #bash script intercepts signals sent to the process and performs the specified commands before exiting:\n\n    trap [commands] [signals]\n\nE.g. to clean up a temporary file on receipt of signal 1 (hangup) or 2 (interrupt)\n\n    trap 'rm file.tmp; exit' 1 2\n\nThe exit code of the `exit` statement will be that of the most recent command, in this case the `rm` command.",
+        "id": 6,
+        "status": "posted"
+    },
+    {
+        "content": "Start an #nginx web server with #docker:\n\n    docker run --rm --name nginx -p 8080:80 nginx\n\nNavigate to https://localhost:8080",
+        "id": 7,
+        "status": "posted"
+    },
+    {
+        "content": "Kill a tmux session:\n\n    tmux kill-session -t <session-name>",
+        "id": 8,
+        "status": "posted"
+    },
+    {
+        "content": "Manage #latex packages:\n\n    # Info on installed/available packages\n    tlmgr info amsmath\n    tlmgr info geometry graphicsa\n\n    # List all / all installed\n    tlmgr info [--only-installed]\n\n    # Install a package:\n    tlmgr install hyphen-french\n    tlmgr remove yazd-thesis",
+        "id": 9,
+        "status": "posted"
+    },
+    {
+        "content": "ShellCheck - a simple script static analysis tool\n\nhttps://github.com/koalaman/shellcheck",
+        "id": 10,
+        "status": "posted"
+    },
+    {
+        "content": "In #linux/#macOS, `who` lists the users currently on the system.\n\n`who -m` shows the current user; so does `who am i`, or `who` with any two arguments (`who mom likes`, `who w w`, ...).\n\nThe separate command `whoami` also gives the current user, as does `id -un` and usually, although not guaranteed, `echo $USER`.",
+        "id": 11,
+        "status": "unposted"
+    },
+    {
+        "content": "Linux Documentation Project Advanced Bash Scripting Guide: https://tldp.org/LDP/abs/html/index.html",
+        "id": 12,
+        "status": "unposted"
+    },
+    {
+        "content": "Avoid looping over the output from `ls` in #bash:\n\n    # Do not do:\n    for file in $(ls *.py) ; do\n        ...\n    done\n\nSee http://mywiki.wooledge.org/BashPitfalls#for_f_in_.24.28ls_.2A.mp3.29",
+        "id": 13,
+        "status": "unposted"
+    },
+    {
+        "content": "git rev-list lists commit objects in reverse chronological order. E.g.:\n\n    git rev-list main\n\nlists all commits reachable by following the 'parent' links from the given start point (the main branch in this case).\n\nAdding the --first-parent option makes #git follow only the first parent commit when it reaches a merge commit. This can give a better overview of the evolution of a topic branch, where merges into the topic branch have tended to be about adjusting to an updated upstream.\n\nhttps://git-scm.com/docs/git-rev-list",
+        "id": 14,
+        "status": "unposted"
+    },
+    {
+        "content": "The Poisson distribution\n\nThe mean and the variance are equal, and given by the parameter lambda. The second paramater k is a non-negative integer.\n\nFor example, measurements of the number of radioactive decays in a given time interval has a Poisson distribution.\n[poisson_distribution_equation.png]",
+        "id": 15,
+        "status": "unposted"
+    },
+    {
+        "content": "Visual recursive directory listing with tree command for #linux/#macOS; install on macOS with\n\n    brew install tree\n\nhttp://mama.indstate.edu/users/ice/tree\n[tree1.png]\n[tree2.png]",
+        "id": 16,
+        "status": "unposted"
+    },
+    {
+        "content": "Magic functions in Jupyter notebooks; begin with a '%' symbol and define shortcuts useful for interactive work, e.g.:\n\n    %ls\n\n    %cd ..\n\n    %history\n\n    %lsmagic\n\n    %pwd\n\n    %run my_python_script\n",
+        "id": 17,
+        "status": "unposted"
+    },
+    {
+        "content": "Create a #python dictionary with tuple keys:\n\n    >>> my_dict = {(x, y): x**2 + 2*y for x in range(5) for y in range(2)}\n",
+        "id": 18,
+        "status": "unposted"
+    },
+    {
+        "content": "Fully compile a #latex document in one step (running the LaTeX compiler the required number of times automatically) using `latexmk`:\n\n    $ latexmk -pdf document.tex\n",
+        "id": 19,
+        "status": "unposted"
+    },
+    {
+        "content": "Unzip a zip file in #python:\n\n    import zipfile\n    with zipfile.ZipFile(path_to_zip_file, 'r') as zip_ref:\n        zip_ref.extractall(directory_to_extract_to)\n\nhttps://stackoverflow.com/a/3451150",
+        "id": 20,
+        "status": "unposted"
+    },
+    {
+        "content": "Specify a username when cloning a repository from #github (for example) using HTTPS:\n\n    $ git clone https://username@github.com/...\n",
+        "id": 21,
+        "status": "unposted"
+    },
+    {
+        "content": "Manage abbreviations in #latex (e.g. automatically spell them out the first time they're used, compile a list of abbreviations automatically) using the `acronym` package. Run `texdoc acronym` for info.",
+        "id": 22,
+        "status": "unposted"
+    },
+    {
+        "content": "The binomial distribution\n\nThe parameter k is an integer from 0 to n representing the number of successful trials out of n trials in total. The mean is np, and the variance is np(1-p).\n[binomial_distribution_equation.png]",
+        "id": 23,
+        "status": "unposted"
+    },
+    {
+        "content": "Generate random permutations of lines at the command line: https://linux.die.net/man/1/shuf",
+        "id": 24,
+        "status": "unposted"
+    },
+    {
+        "content": "Set theory at the command line: https://www.johndcook.com/blog/2019/11/24/comm-set-theory",
+        "id": 25,
+        "status": "unposted"
+    },
+    {
+        "content": "The kurtosis of a random variable X is the fourth standard moment:\n\n    \u03ba = \ud835\ude74[((\ud835\ude87 - \u03bc)/\u03c3)\u2074]\n\nwhere \u03bc is the mean and \u03c3 is the standard deviation.\n\nThe normal distribution has a kurtosis of \u03ba = 3.\n[kurtosis_equation.png]",
+        "id": 26,
+        "status": "unposted"
+    },
+    {
+        "content": "In #python\n\n    >>> my_string.find('sub-string')\n\nreturns the index at which `sub-string` starts within the string `my_string`.",
+        "id": 27,
+        "status": "unposted"
+    },
+    {
+        "content": "Update a Tex Live or MacTex #latex installation with tlmgr:\n\nUpdate the tlmgr configuration tool itself:\n\n    $ sudo tlmgr update --self\n\nSee what would be updated (dry run):\n\n    $ tlmgr update --list\n\nUpdate:\n\n    $ sudo tlmgr update --all\n\nTo learn more:\n\n    $ man tlmgr\n",
+        "id": 28,
+        "status": "unposted"
+    },
+    {
+        "content": "To switch on mouse scrolling in tmux:\n\n    set -g mouse on\n\n(The `-g` option means global; set for every session, window and pane).\n\nAdd to `~/.tmux.conf` to make permanent.",
+        "id": 29,
+        "status": "unposted"
+    },
+    {
+        "content": "#python has a built-in string consisting of punctuation marks:\n\n    >>> import string\n    >>> string.punctuation\n    '!\"#$%&\\'()*+,-./:;<=>?@[\\\\]^_`{|}~'\n",
+        "id": 30,
+        "status": "unposted"
+    },
+    {
+        "content": "Save tmux sessions across system reboots with tmux-resurrect plugin: https://github.com/tmux-plugins/tmux-resurrect\n\nOnce installed, use <prefix> + <Ctrl>-<s> to save, <prefix> + <Ctrl>+<r> to restore.",
+        "id": 31,
+        "status": "unposted"
+    },
+    {
+        "content": "Recover a #vim file (e.g. after a crash) by starting Vim on the file with the -r option:\n\n    $ vim -r README.md\n",
+        "id": 32,
+        "status": "unposted"
+    },
+    {
+        "content": "To move ahead N characters in #vim, use `N<space>` in normal mode.\n\nhttps://vi.stackexchange.com/a/14434",
+        "id": 33,
+        "status": "unposted"
+    },
+    {
+        "content": "Set up plugins in tmux with Tmux Plugin Manager.\n\n1. Clone:\n\n    $ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm\n\n2. Add:\n\n    set -g @plugin 'tmux-plugins/tpm'\n    run '~/.tmux/plugins/tpm/tpm'\n\nto the bottom of ~/.tmux.conf.\n\nhttps://github.com/tmux-plugins/tpm",
+        "id": 34,
+        "status": "unposted"
+    },
+    {
+        "content": "View documentation for an installed #latex package:\n\n    texdoc acronym",
+        "id": 35,
+        "status": "unposted"
+    },
+    {
+        "content": "Set a #git config value automatically when cloning a repository with the --config or -c option:\n\n    $ git clone -c user.name=tif ...\n",
+        "id": 36,
+        "status": "unposted"
+    },
+    {
+        "content": "Why can I log into my account with a misspelled password: https://security.stackexchange.com/questions/214814/why-can-i-log-in-to-my-facebook-account-with-a-misspelled-email-password",
+        "id": 37,
+        "status": "unposted"
+    },
+    {
+        "content": "Get a trimmmed mean of a data set, i.e. the mean of values within a specified range:\n\n    from scipy import stats\nstats.tmean(my_data, limits = [-1, 1])\n",
+        "id": 38,
+        "status": "unposted"
+    },
+    {
+        "content": "Bring an application to the foreground from the command line in #macOS using #applescript:\n\n    $ osascript -e \"tell application \\\"Safari\\\" to activate\"\n",
+        "id": 39,
+        "status": "unposted"
+    },
+    {
+        "content": "In #macOS get URL currently open in Safari at command line (with #applescript):\n\n    $ osascript -e 'tell application \"Safari\" to set x to URL of current tab of window 1'\n\nSlightly simpler:\n\n    osascript -e 'tell application \"Safari\" to return URL of front document as string'\n\n(https://stackoverflow.com/questions/47510161/how-to-get-browser-active-tab-url-in-node-electron-app-on-linux-mac-windows)\n\nFor Vivaldi the syntax is slightly different, which doesn't work as-is for Safari:\n\n    osascript -e 'tell application \"Vivaldi\" to return URL of active tab of front window'\n\nThis slight mod does work for Safari as well as Vivaldi, but the URL of the first tab rather than the active tab is returned:\n\n    osascript -e 'tell application \"Safari\" to return URL of front tab of front window'\n\nThis returns all the tabs in a comma-separated list (Safari and Vivaldi):\n\n    osascript -e 'tell application \"Safari\" to return URL of tab of front window'\n\nNote the syntax valid for Vivaldi is also valid for Brave (and - though not tested here - presumably Google Chrome, Chromium, Opera, ...).",
+        "id": 40,
+        "status": "unposted"
+    },
+    {
+        "content": "Open a new tab from the command line on #macOS, using #applescript:\n\n    URL='https://botsin.space/@tif' # For example\n    osascript -e \"tell application \\\"Brave Browser\\\" to open location \\\"${URL}\\\"\"\n\n(Works for \"Safari\", \"Vivaldi\", i\"Firefox\", etc., in place of \"Brave Browser\".)",
+        "id": 41,
+        "status": "unposted"
+    },
+    {
+        "content": "Jump to the matching bracket in #vim with '%'",
+        "id": 42,
+        "status": "unposted"
+    },
+    {
+        "content": "Get image size in pixels at the command line using `file`:\n\n    file my-image.png\n\n(Works for GIF, JPEG also.)",
+        "id": 43,
+        "status": "unposted"
+    },
+    {
+        "content": "Get descriptive statistics for a data series in Pandas:\n\n    >>> my_series.describe()\n\nE.g. count, mean, min, max, percentiles.\n\nIn SciPy:\n\n    >>> from scipy import stats\n    >>> stats.describe(my_series)\n\nincludes skewness and kurtosis.\n\nGet particular attributes:\n\n    stats.describe(my_series).kurtosis\n\nhttps://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.describe.html",
+        "id": 44,
+        "status": "unposted"
+    },
+    {
+        "content": "So you think you know C?\n\nhttps://wordsandbuttons.online/SYTYKC.pdf",
+        "id": 45,
+        "status": "unposted"
+    },
+    {
+        "content": "Bash: re-use the last argument from the previous command\n\nhttps://raimue.blog/2011/01/14/bash-reuse-last-argument-from-previous-command",
+        "id": 46,
+        "status": "unposted"
+    },
+    {
+        "content": "Generate dummy data in #python from a normal distribution:\n\n    \ud835\ude92\ud835\ude96\ud835\ude99\ud835\ude98\ud835\ude9b\ud835\ude9d \ud835\ude97\ud835\ude9e\ud835\ude96\ud835\ude99\ud835\udea2 \ud835\ude8a\ud835\ude9c \ud835\ude97\ud835\ude99\n    \ud835\ude96\ud835\ude8e\ud835\ude8a\ud835\ude97 = \ud835\udff8.\ud835\udffb\n    \ud835\ude9c\ud835\ude9d\ud835\ude8a\ud835\ude97\ud835\ude8d\ud835\ude8a\ud835\ude9b\ud835\ude8d_\ud835\ude8d\ud835\ude8e\ud835\ude9f = \ud835\udff7.\ud835\udff9\n    \ud835\ude9c\ud835\ude8a\ud835\ude96\ud835\ude99\ud835\ude95\ud835\ude8e_\ud835\ude9c\ud835\ude92\ud835\udea3\ud835\ude8e = \ud835\udffb\n    \ud835\ude97\ud835\ude99.\ud835\ude9b\ud835\ude8a\ud835\ude97\ud835\ude8d\ud835\ude98\ud835\ude96.\ud835\ude97\ud835\ude98\ud835\ude9b\ud835\ude96\ud835\ude8a\ud835\ude95(\ud835\ude96\ud835\ude8e\ud835\ude8a\ud835\ude97, \ud835\ude9c\ud835\ude9d\ud835\ude8a\ud835\ude97\ud835\ude8d\ud835\ude8a\ud835\ude9b\ud835\ude8d_\ud835\ude8d\ud835\ude8e\ud835\ude9f, \ud835\ude9c\ud835\ude8a\ud835\ude96\ud835\ude99\ud835\ude95\ud835\ude8e_\ud835\ude9c\ud835\ude92\ud835\udea3\ud835\ude8e)\n\nOr from a binomial:\n\n    \ud835\ude9c\ud835\ude9e\ud835\ude8c\ud835\ude8e\ud835\ude9c\ud835\ude9c_\ud835\ude99\ud835\ude9b\ud835\ude98\ud835\ude8b\ud835\ude8a\ud835\ude8b\ud835\ude92\ud835\ude95\ud835\ude92\ud835\ude9d\ud835\udea2 = \ud835\udff6.\ud835\udffa\n    \ud835\ude97\ud835\ude9e\ud835\ude96\ud835\ude8b\ud835\ude8e\ud835\ude9b_\ud835\ude98\ud835\ude8f_\ud835\ude9d\ud835\ude9b\ud835\ude92\ud835\ude8a\ud835\ude95\ud835\ude9c = \ud835\udffb\n    \ud835\ude97\ud835\ude99.\ud835\ude9b\ud835\ude8a\ud835\ude97\ud835\ude8d\ud835\ude98\ud835\ude96.\ud835\ude8b\ud835\ude92\ud835\ude97\ud835\ude98\ud835\ude96\ud835\ude92\ud835\ude8a\ud835\ude95(\ud835\ude97\ud835\ude9e\ud835\ude96\ud835\ude8b\ud835\ude8e\ud835\ude9b_\ud835\ude98\ud835\ude8f_\ud835\ude9d\ud835\ude9b\ud835\ude92\ud835\ude8a\ud835\ude95\ud835\ude9c, \ud835\ude9c\ud835\ude9e\ud835\ude8c\ud835\ude8c\ud835\ude8e\ud835\ude9c\ud835\ude9c_\ud835\ude99\ud835\ude9b\ud835\ude98\ud835\ude8b\ud835\ude8a\ud835\ude8b\ud835\ude92\ud835\ude95\ud835\ude92\ud835\ude9d\ud835\udea2, \ud835\ude9c\ud835\ude8a\ud835\ude96\ud835\ude99\ud835\ude95\ud835\ude8e_\ud835\ude9c\ud835\ude92\ud835\udea3\ud835\ude8e)\n\nor uniform distribution:\n\n    \ud835\ude9c\ud835\ude9d\ud835\ude8a\ud835\ude9b\ud835\ude9d = \ud835\udff6\n    \ud835\ude8e\ud835\ude97\ud835\ude8d = \ud835\ude97\ud835\ude99.\ud835\ude99\ud835\ude92\n    \ud835\ude97\ud835\ude99.\ud835\ude9b\ud835\ude8a\ud835\ude97\ud835\ude8d\ud835\ude98\ud835\ude96.\ud835\ude9e\ud835\ude97\ud835\ude92\ud835\ude8f\ud835\ude98\ud835\ude9b\ud835\ude96(\ud835\ude9c\ud835\ude9d\ud835\ude8a\ud835\ude9b\ud835\ude9d, \ud835\ude8e\ud835\ude97\ud835\ude8d, \ud835\ude9c\ud835\ude8a\ud835\ude96\ud835\ude99\ud835\ude95\ud835\ude8e_\ud835\ude9c\ud835\ude92\ud835\udea3\ud835\ude8e)\n\nor a Poisson distribution:\n\n    _\ud835\ude95\ud835\ude8a\ud835\ude96\ud835\ude8b\ud835\ude8d\ud835\ude8a = \ud835\udff8.\ud835\udffb\n    \ud835\ude97\ud835\ude99.\ud835\ude9b\ud835\ude8a\ud835\ude97\ud835\ude8d\ud835\ude98\ud835\ude96.\ud835\ude99\ud835\ude98\ud835\ude92\ud835\ude9c\ud835\ude9c\ud835\ude98\ud835\ude97(_\ud835\ude95\ud835\ude8a\ud835\ude96\ud835\ude8b\ud835\ude8d\ud835\ude8a, \ud835\ude9c\ud835\ude8a\ud835\ude96\ud835\ude99\ud835\ude95\ud835\ude8e_\ud835\ude9c\ud835\ude92\ud835\udea3\ud835\ude8e)\n\n(The variable _\ud835\ude95\ud835\ude8a\ud835\ude96\ud835\ude8b\ud835\ude8d\ud835\ude8a starts with an underscore to avoid clashing with the #python built-in \ud835\ude95\ud835\ude8a\ud835\ude96\ud835\ude8b\ud835\ude8d\ud835\ude8a.)\n\nSampling without replacement:\n\n    \ud835\ude92\ud835\ude96\ud835\ude99\ud835\ude98\ud835\ude9b\ud835\ude9d \ud835\ude9b\ud835\ude8a\ud835\ude97\ud835\ude8d\ud835\ude98\ud835\ude96\n    \ud835\ude96\ud835\udea2_\ud835\ude95\ud835\ude92\ud835\ude9c\ud835\ude9d = \ud835\ude95\ud835\ude92\ud835\ude9c\ud835\ude9d(\ud835\ude97\ud835\ude99.\ud835\ude8a\ud835\ude9b\ud835\ude8a\ud835\ude97\ud835\ude90\ud835\ude8e(\ud835\udff7\ud835\udff6\ud835\udff6))\n    \ud835\ude9b\ud835\ude8a\ud835\ude97\ud835\ude8d\ud835\ude98\ud835\ude96.\ud835\ude9c\ud835\ude8a\ud835\ude96\ud835\ude99\ud835\ude95\ud835\ude8e(\ud835\ude96\ud835\udea2_\ud835\ude95\ud835\ude92\ud835\ude9c\ud835\ude9d, \ud835\ude94 = \ud835\ude9c\ud835\ude8a\ud835\ude96\ud835\ude99\ud835\ude95\ud835\ude8e.\ud835\ude9c\ud835\ude92\ud835\udea3\ud835\ude8e)\n\nSampling with replacement:\n\n    \ud835\ude9b\ud835\ude8a\ud835\ude97\ud835\ude8d\ud835\ude98\ud835\ude96.\ud835\ude8c\ud835\ude91\ud835\ude98\ud835\ude92\ud835\ude8c\ud835\ude8e\ud835\ude9c(\ud835\ude96\ud835\udea2_\ud835\ude95\ud835\ude92\ud835\ude9c\ud835\ude9d, \ud835\ude94 = \ud835\ude9c\ud835\ude8a\ud835\ude96\ud835\ude99\ud835\ude95\ud835\ude8e_\ud835\ude9c\ud835\ude92\ud835\udea3\ud835\ude8e)",
+        "id": 47,
+        "status": "unposted"
+    },
+    {
+        "content": "In #python 2, a new style of classes was implemented which, amongst other improvements, allowed you to subclass types. However, for backwards compatibility, the old-style classes were retained. The empty object class was created to distinguish new-style classes from old.\n\nOld-style classes were created with:\n\n     \ud835\ude8c\ud835\ude95\ud835\ude8a\ud835\ude9c\ud835\ude9c \ud835\ude7e\ud835\ude95\ud835\ude8d_\ud835\ude72\ud835\ude95\ud835\ude8a\ud835\ude9c\ud835\ude9c:\n\nand new-style classes with:\n\n     \ud835\ude8c\ud835\ude95\ud835\ude8a\ud835\ude9c\ud835\ude9c \ud835\ude7d\ud835\ude8e\ud835\udea0_\ud835\ude72\ud835\ude95\ud835\ude8a\ud835\ude9c\ud835\ude9c(\ud835\ude98\ud835\ude8b\ud835\ude93\ud835\ude8e\ud835\ude8c\ud835\ude9d):\n\nIn #python 3 however , the new-style classes are the default and there's no need to sub-class \ud835\ude98\ud835\ude8b\ud835\ude93\ud835\ude8e\ud835\ude8c\ud835\ude9d.\n\nhttps://stackoverflow.com/a/2588667",
+        "id": 48,
+        "status": "unposted"
+    },
+    {
+        "content": "Get quantiles of a Pandas series (e.g. at 25%, 50%, 75%):\n\n    my_series.quantile([0.25, 0.5, 0.75])\n\nhttps://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.quantile.html",
+        "id": 49,
+        "status": "unposted"
+    },
+    {
+        "content": "Use Apache virtual hosts on #macOS: https://jasonmccreary.me/articles/configure-apache-virtualhost-mac-os-x",
+        "id": 50,
+        "status": "unposted"
+    },
+    {
+        "content": "Centre and scale a dataset (e.g. Pandas dataframe column or series) to zero mean and unit variance, in scikit-learn:\n\n    from sklearn.preprocessing import StandardScalar\n    scaler = StandardScaler(with_mean = True, with_std = True)\n    scaled_data = scalar.transform(data)\n\nIn sklearn-pandas, which provides Pandas integration with scikit-learn, create a DataFrameMapper object, which maps columns of a Pandas dataframe to different scikit-learn transformations:\n\n    from sklearn_pandas import DataFrameMapper\n    mapper = DataFrameMapper([\n        (['column1'], StandardScaler()),\n        (['column2'], None),\n        ])\n    scaled_df = mapper.fit_transform(df)\n\nColumns not included in the mapper are dropped from the scaled dataframe.",
+        "id": 51,
+        "status": "unposted"
+    },
+    {
+        "content": "Interactively rebase a sequence of commits in #git, starting with the root commit, up to a specified commit:\n\n    $ git rebase -i --root <commit>\n\n(If you rebase from the root commit onwards, e.g. `git rebase -i <root-commit>`, then the root commit itself is not included.",
+        "id": 52,
+        "status": "unposted"
+    },
+    {
+        "content": "In #python, extract, from a list of dictionaries, only those elements (dictionaries) with a particular `(key, value)` pair using the `filter()` function.\n\nFor example, suppose you have a list of dictionaries called `data`, and you want to filter the dictionaries to extract only those with the key `id` equal to `selected_id`:\n\n    $ filtered_list = filter(lambda d: d['id'] == 'selected_id', data)\n",
+        "id": 53,
+        "status": "unposted"
+    },
+    {
+        "content": "Vim allows the insertion of characters that aren't on the keyboard via 'digraphs'. These are two-character codes that represent a single character, e.g. 'Co' represents the copyright symbol \u00a9. To insert a symbol using a digraph, type CTRL-K, then the two characters.\n\nType `:help digraphs` for more information, and `:digraphs` for a list. Ensure Unicode support is turned on to get the full set: `:set encoding=utf-8`.",
+        "id": 54,
+        "status": "unposted"
+    },
+    {
+        "content": "The `sed` is not limited to using `/` as delimiter; e.g. uses whatever comes after 's' in substitute commands:\n\n    $ echo cat | sed 's/cat/dog/'\n    $ echo cat | sed 's,cat,dog,'\n    $ echo cat | sed 's:cat:dog:'\n    $ echo cat | sed 'szcatzdogz'\n    $ echo cat | sed 's9cat9dog9'\n",
+        "id": 55,
+        "status": "unposted"
+    },
+    {
+        "content": "The #100DaysOfCode Challenge, its history, and why you should try it\n\nhttps://www.freecodecamp.org/news/the-crazy-history-of-the-100daysofcode-challenge-and-why-you-should-try-it-for-2018-6c89a76e298d/",
+        "id": 56,
+        "status": "unposted"
+    },
+    {
+        "content": "Type 'gg' to go to the first line in a file in #vim (':0' also works, since ':n' takes you to the nth line.)",
+        "id": 57,
+        "status": "unposted"
+    },
+    {
+        "content": "Fix indentation in all lines of a file below the cursor in #vim with `=G`.",
+        "id": 58,
+        "status": "unposted"
+    },
+    {
+        "content": "Dot-underscore (`._`...) files in #macOS: https://apple.stackexchange.com/questions/14980",
+        "id": 59,
+        "status": "unposted"
+    },
+    {
+        "content": "If you use:\n\n    $ tmux new -A -s <session-name>\n\nwhen starting and/or attaching to a tmux session, it will create `<session-name>` if it doesn't exist, and attach to it if it does.",
+        "id": 60,
+        "status": "unposted"
+    },
+    {
+        "content": "Set up a local web server on #macOS: https://discussions.apple.com/docs/DOC-250001766",
+        "id": 61,
+        "status": "unposted"
+    },
+    {
+        "content": "Rebase the last n commits onto another branch in #git with:\n\n    $ git rebase -i HEAD~<n> --onto <target-branch>\n\nChanges are applied to your current branch (not <target-branch>), so to actually graft the last n commits from your current branch onto a target branch:\n\n    $ git switch -c tmp\n    $ git rebase -i HEAD~<n> --onto <target-branch>\n    $ git switch <target-branch>\n    $ git merge --ff-only tmp\n    $ git branch -d tmp\n",
+        "id": 62,
+        "status": "unposted"
+    },
+    {
+        "content": "Show port numbers for applications on #macOS:\n\n    $ sudo lsof -i -P\n\nThe lsof lists open files, including network files. The -i option limits to listing only Internet files, -P prevents port numbers being converted to names",
+        "id": 63,
+        "status": "unposted"
+    },
+    {
+        "content": "Before executing any command, #bash performs 'pathname expansion' on it. The characters '*', '?' and '[' are special - any token in the command that contains them is treated as a 'pattern'.\n\nEach pattern in the command is replaced with an alphabetically sorted list of filenames that match the pattern according to specific pattern matching rules. These are:\n\nThe * character matches any string (incl. the null string).\nThe ? character matches any single character\n[...] matches any one of the enclosed characters; a range of characters can also be specified\n\nE.g.:\n`ls [abc]*` lists all files starting with 'a', 'b' or 'c'\n\n`ls *[xyz]` lists all files ending with 'x', 'y' or 'z'\n\n`ls 0???f` lists all files with 5-letter names starting with '0' and ending with 'f'.\n\n`ls [a-z]*` specified a range, so lists all files starting with a lower-case letter.\n\n`ls *[0-9]` lists files ending with a digit.",
+        "id": 64,
+        "status": "unposted"
+    },
+    {
+        "content": "Find out what branches have been merged in #git\n\nList branches merged into <branch>:\n\n    $ git branch --merged <branch>\n\nList branches merged into current branch:\n\n    $ git branch --merged\n\nList branches that have not been merged\n\n    $ git branch --no-merged\n\nAdd `-a` option to show both local and remote branches, `-r` to show only remote branches.",
+        "id": 65,
+        "status": "unposted"
+    },
+    {
+        "content": "Use '\\in' to produce the \u2208 symbol in #latex",
+        "id": 66,
+        "status": "unposted"
+    },
+    {
+        "content": "List #docker containers:\n\n    docker ps -a\n\n(without -a lists just running containers)",
+        "id": 67,
+        "status": "unposted"
+    },
+    {
+        "content": "Keep a process running in the background and allow it to continue running if\nthe terminal session is closed or if you log out from the server:\n\n    $ nohup <command...> &\n\nBy default the `nohup` command sends the output to nohup.out.",
+        "id": 68,
+        "status": "unposted"
+    },
+    {
+        "content": "Use `\\dot{}` and `\\ddot{}` in #latex to get a dot and double dot, respectively, over text (in math mode).",
+        "id": 69,
+        "status": "unposted"
+    },
+    {
+        "content": "#tmux cheat sheet: https://tmuxcheatsheet.com",
+        "id": 70,
+        "status": "unposted"
+    },
+    {
+        "content": "At the command-line `cal` show a calendar view of the current month;\n`cal <year>` shows a calendar view for the full year specified (incl in the\nfuture), `cal <month> <year>` shows the specified month where <month> can be a\nnumber or name (e.g. 9 or sep).",
+        "id": 71,
+        "status": "unposted"
+    },
+    {
+        "content": "With:\n\n     $ ssh -L 8000:127.0.0.1:8000 <user>@<host>\n\nyou can connect to a remote server <host> (as <user>) and map its port 8000 to the client port 8000. Connections to the local port 8000 are forwarded to the remote server's port 8000 over the SSH connection.\n\n(Provides a way for example to connect to a web server running on the remote server in a browser on the client.)",
+        "id": 72,
+        "status": "unposted"
+    },
+    {
+        "content": "Indent or unindent the current line in #vim with '>>' or '<<', respectively.\n\nIndent or unindent one or more lines selected in visual line mode (SHIFT-V) with '>' or '<' respectively.",
+        "id": 73,
+        "status": "unposted"
+    },
+    {
+        "content": "Run a #python web server:\n\n    $ python3 -m http.server 8000\n\nand connect at 'http://localhost:8000'.",
+        "id": 74,
+        "status": "unposted"
+    },
+    {
+        "content": "Local variables in #bash.\n\nWhen used in a function, `declare` makes each name local, as with the `local` command, unless the `-g` option is used.\n\nSo:\n\n    declare <var>\n    local <var>\n\nboth create a local variable `<var>`, if used inside a function (`declare` can be used outside functions but `local` cannot.). `local` accepts any of the options accepted by `declare`.",
+        "id": 75,
+        "status": "unposted"
+    },
+    {
+        "content": "Create an array of evenly-spaced numbers in #python with #numpy:\n\n    >>> import numpy as np\n    >>> x = np.linspace(min, max[, n])\n\nwhere `min` and `max` are the (included) upper and lower bounds, and `n` is the number of points (default: 50).",
+        "id": 76,
+        "status": "unposted"
+    },
+    {
+        "content": "Stop a #docker container with:\n\n    docker stop <container-id>\n\nand remove it with:\n\n    docker rm <container-id>",
+        "id": 77,
+        "status": "unposted"
+    },
+    {
+        "content": "Vim maintains a 'jumplist', a list of cursor positions.",
+        "id": 78,
+        "status": "unposted"
+    },
+    {
+        "content": "Annotate a #matplotlib plot with:\n\n    >>> import matplotlib.pyplot as plt\n    ...\n    >>> plt.annotate(str, xy)\n\nwhere `str` is the annotation text and `xy` is a tuple of the x and y coordinates.\n\nThe default coordinate system is 'data', i.e. the coordinate system of the object being annotated; but this can be changed with the `xycoord` keyword argument.",
+        "id": 79,
+        "status": "unposted"
+    },
+    {
+        "content": "The `view` command is a read-only version of #vi, equivalent to `vi -R`",
+        "id": 80,
+        "status": "unposted"
+    },
+    {
+        "content": "You can use a different delimiter in `sed` substitute commands. You can also use a different delimiter in delete commands; but you need to prefix the delimiter with a backslash.\n\nI.e. changing:\n\n    $ sed \"/line to delete/d\"\n\nto:\n\n    $ sed \"|line to delete|d\"\n\nwill not work; you need:\n\n    $ sed \"\\|line to delete|d\"\n",
+        "id": 81,
+        "status": "unposted"
+    },
+    {
+        "content": "Copy a file converting it to all-lower-case:\n\n    $ dd if=input.txt of=output.txt conv=lcase\n\n(or `tr 'A-Z' 'a-z' <input.txt >output.txt`).\n\nUse `dd ... conv=ucase` to convert all to upper case.",
+        "id": 82,
+        "status": "unposted"
+    },
+    {
+        "content": "Find all broken links:\n\n    $ find . -xtype l\n",
+        "id": 83,
+        "status": "unposted"
+    },
+    {
+        "content": "Create a #conda environment from a YAML file:\n\n    $ conda env create -f environment.yml\n\nThe environment name is taken from the first line of the YAML file.",
+        "id": 84,
+        "status": "unposted"
+    },
+    {
+        "content": "With the `tr` command in #bash, use the `-c` option to get the complement of the first character set. E.g. to delete all character _except_ letters and space:\n\n    tr -c '[:alpha:] ' <input.txt",
+        "id": 85,
+        "status": "unposted"
+    },
+    {
+        "content": "In #vim, ctrl-g diplays the status (filename, number of lines, position in file as %, ...)",
+        "id": 86,
+        "status": "unposted"
+    },
+    {
+        "content": "Singularity Containers for HPC & Deep Learning: https://www.nextplatform.com/2018/03/19/singularity-containers-for-hpc-deep-learning/",
+        "id": 87,
+        "status": "unposted"
+    },
+    {
+        "content": "Print only lines where a replacement has been made in `sed`:\n\n    $ sed -n 's/search/replace/gp' file.txt\n\nThe '-n' option suppresses standard output, and the 'p' flag in the substitute command prints lines where a replacement has been made.",
+        "id": 88,
+        "status": "unposted"
+    },
+    {
+        "content": "Find files newer than a specified reference file, e.g.:\n\n    $ find ~ -type f -name \"*.py\" -newer python_backup.tar",
+        "id": 89,
+        "status": "unposted"
+    },
+    {
+        "content": "Using `sed`, write only lines where a replacement has been made to a new file:\n\n    $ sed 's/search/replace/gw outfile.txt' infile.txt\n\nThe file `outfile.txt` will consist of only the edited lines, and the fill file will still be printed to standard out.",
+        "id": 90,
+        "status": "unposted"
+    },
+    {
+        "content": "Set yourself a reminder at the command line:\n\n    $ echo \"echo Call Mary-Ann | write ${USER}\" | at now +5 minutes\n\nSee:\n\n    $ man at\n\nfor more info on controlling the timing.\n\nMake it more prominent:\n\n    $ echo \"cowsay Put the cat out | write ${USER}\" | at now +5 minutes\n    $ echo \"figlet Take a break | write ${USER}\" | at 14:00\n\nWrite a function:\n\n    function remindme() {\n        echo \"cowsay $1 | write ${USER}\" | at \"${@:2}\"\n    }\n\nthen:\n\n    $ remindme \"Get back to work!\" now +30 minutes",
+        "id": 91,
+        "status": "unposted"
+    },
+    {
+        "content": "Get a simple word-frequency list from a atext file with this #bash one-liner:\n\n    tr -sc 'A-Za-z' '\\n' <input.txt | tr 'A-Z' 'a-z' | sort | uniq -c | sort +0 -1nr +1 -2",
+        "id": 92,
+        "status": "unposted"
+    },
+    {
+        "content": "Use `sed` to extract C multiline comments:\n\n    sed '/\\/\\*/,/\\/\\*/!d' file.c\n\nThe command 'pattern1,pattern2!d' specifies a range to operate on, starting with wherever 'pattern1' is matched, and ending where 'pattern2' is matched.\n\nThe 'd' function deletes the matched lines, and '!d' negates that to delete everything but the matched range. The range is defined by matching '/*' through to '*/', which enclose a C multi-line comment; so here pattern1 is \\/\\* and pattern2 is \\*\\/.\n\nThere are easier ways to do this; the idea is to demonstrate how sed can be used.",
+        "id": 93,
+        "status": "unposted"
+    },
+    {
+        "content": "Opening #vi or #vim with `+` argument opens the file with the cursor at the end:\n\n    $ vi + <filename>\n",
+        "id": 94,
+        "status": "unposted"
+    },
+    {
+        "content": "When using `ex`-style subsitute command (e.g. in `sed` or `vim`), the '&' symbol represent the matched pattern. E.g.:\n\n    $ echo '$VARIABLE' | sed 's/VARIABLE/{&}/'\n\ngives `${VARIABLE}`.\n\nThis is most useful if there are mutliple matches, e.g.\n\n    $ sed 's/ection[1-9]/ubs&/g' <paper.tex\n\nwould turn 'Section1' into 'Subsection1', 'Section2' into 'Subsection2', ...",
+        "id": 95,
+        "status": "unposted"
+    },
+    {
+        "content": "Grep options:\n\n- `-n` causes the line numbers of the matching lines to also be printed.\n- `-h` suppresses the filename from being printed when grepping multiple files.\n- `-l` causes _only_ the filenames where matches were found to be printed.\n- `-c` prints the count of matched lines (per file).\n- `-s` suppresses error messages (e.g. if a file being grepped doesn't exist or have read permission).\n",
+        "id": 96,
+        "status": "unposted"
+    },
+    {
+        "content": "The `-ok` expression is an alternative to `-exec` in the `find` command, but which stops and asks for confirmation before executing the given command, e.g.:\n\n    $ find ~ -name .DS_Store -ok rm {} \\;\n\nThe syntax is otherwise the same as for `-exec`. Type 'y' to execute the command, or anything else to move on to the next result.",
+        "id": 97,
+        "status": "unposted"
+    },
+    {
+        "content": "Set #matplotlib figure size in a #jupyter notebook using (for example):\n\n    import matplotlib.pyplot as plt\n    plt.rcParams[\"figure.figsize\"] = 16,4",
+        "id": 98,
+        "status": "unposted"
+    },
+    {
+        "content": "The `set` builtin command in #bash will set the positional parameters $1, $2, ... to any arguments given to the `set` command:\n\n    > set \"Hello\" \"world\"\n    > echo $1\n    Hello\n    > echo $2\n    world\n    > echo $#\n    2\n\nYou can use this to count the words that a command produces:\n\n    > set $(date)\n    > echo $#\n    6\n",
+        "id": 99,
+        "status": "unposted"
+    },
+    {
+        "content": "Add a global .gitignore file in #git:\n\n    $ git config --global core.excludesfile <path-to-file>\n\nThis will be respected by all Git repositories on your system.\n\nNote however that unlike with a local .gitignore checked into the repository, other users who clone your project will not have this and therefore will potentially see different results from e.g. `git status`.",
+        "id": 100,
+        "status": "unposted"
+    },
+    {
+        "content": "The grep command family: `fgrep` is faster at the expense of only being able to handle fixed strings (not regular expressions), and `egrep` can handle extended regular expressions. `zgrep`, `zfgrep` and `zegrep` are equivalents that can also handle compressed or gzipped data.",
+        "id": 101,
+        "status": "unposted"
+    },
+    {
+        "content": "In #bash the `for` command has a default argument `in \"$@\"`, so will by default loop over the positional parameters; i.e.:\n\n    for x ; do\n       echo $x\n    done\n\nis equivalent to:\n\n    for x in \"$@\" ; do\n        echo $x\n    done\n",
+        "id": 102,
+        "status": "unposted"
+    },
+    {
+        "content": "#python allows compound size comparison tests so you can more compactly test if a value is in a given range, e.g.:\n\n    a = 1\n    b = 10\n    x = 5.5\n    if a < x < b:\n        print('In range')\n",
+        "id": 103,
+        "status": "unposted"
+    },
+    {
+        "content": "You can restrict sed to work on a subset of a file by specifying line numbers, e.g.:\n\n    sed '1,4s/search/replace/g' file.txt\n\nreplaces 'search' with 'replace' in lines 1-4 of file.txt.\n\nBut it can also subset by context; e.g.:\n\n    sed '/DO/,/ENDDO/s/search/replace/g' file.txt\n\nreplaces 'search' with 'replace' within sections starting with 'DO' and ending with 'ENDDO'.\n\nInvert the match with '!':\n\n\n    sed '/DO/,/ENDDO/!s/search/replace/g' file.txt\n\nto replace with 'search' with 'replace' everywhere _outside_ DO...ENDDO blocks.",
+        "id": 104,
+        "status": "unposted"
+    },
+    {
+        "content": "Map data into ranges/bins in #python #numpy:\n\n    import numpy as np\n    bins = [10, 20, 30]  # Specify 3 bin boundaries to get 4 bins\n    ddf = np.digitize(df['column'], bin, right = True)\n\nResult has the same shape as input data and specifies bin number for each of the original elements.\n\nUse quantiles to set the bin ranges:\n\n    bins = np.quantile(df, [0.25, 0.5, 0.75])\n    ddf = np.digitize(...",
+        "id": 105,
+        "status": "unposted"
+    },
+    {
+        "content": "Print file up to the first line matching a search pattern:\n\n    $ sed '/<pattern>/q' file.txt\n\n(The 'q' is for 'quit'). E.g. count the lines up to first mention of #python:\n\n    $ sed '/[Pp]ython/q' file.txt | wc -l\n",
+        "id": 106,
+        "status": "unposted"
+    },
+    {
+        "content": "Bash Automated Testing System: https://bats-core.readthedocs.io/en/stable/index.html",
+        "id": 107,
+        "status": "unposted"
+    },
+    {
+        "content": "Enabling `at` on #macOS: https://unix.stackexchange.com/a/478840",
+        "id": 108,
+        "status": "unposted"
+    },
+    {
+        "content": "Convert a file to double line-spacing with `sed`:\n\n    sed 's/$/\\\n    /' file.txt",
+        "id": 109,
+        "status": "unposted"
+    },
+    {
+        "content": "A #python collection object (such as a list) can contain a reference to itself:\n\n    >>> my_list = ['elem']\n    >>> my_list.append(my_list)\n\nPython prints '[...]' when it detects this kind of _cyclic object_:\n\n    >>> my_list\n    ['elem', [...]]\n",
+        "id": 110,
+        "status": "unposted"
+    },
+    {
+        "content": "The `sdiff` command in #bash shows a side-by-side diff of two files.",
+        "id": 111,
+        "status": "unposted"
+    },
+    {
+        "content": "The Bash Hash Table\n\nhttps://www.informit.com/articles/article.aspx?p=169504&seqNum=8",
+        "id": 112,
+        "status": "unposted"
+    },
+    {
+        "content": "In #bash the `hash` command displays a list of the full paths to the commands used so far in the shell, and the number of times used (hits).",
+        "id": 113,
+        "status": "unposted"
+    },
+    {
+        "content": "In #bash the `find` command can work on multiple directories if they are listed (space-separated) in the pathname, e.g.:\n\n    $ find ./projectA ../projectB -name .gitignore\n\nThis means wildcards can also be used:\n\n    $ find projects/* -type d -name .git\n\nUnlike when using wildcards in the arguments to expressions (such as `-name \"data*.csv\"`) we don't want to quote this, because here the shell is expanding the wildcard before sending anything to `find`.",
+        "id": 114,
+        "status": "unposted"
+    },
+    {
+        "content": "The `set` builtin command in #bash will set the positional parameters $1, $2, ... to any arguments given to the `set` command:\n\n    > set \"Hello\" \"world\"\n    > echo $1\n    Hello\n    > echo $2\n    world\n    > echo $#\n    2\n\nYou can use this to count the words that a command produces:\n\n    > set $(date)\n    > echo $#\n    6",
+        "id": 115,
+        "status": "unposted"
+    },
+    {
+        "content": "Size comparisons in #python return 'True' or 'False' (objects of type 'bool'):\n\n   >>> 1 < 2\n   True\n   >>> type(1 > 2)\n   <class 'bool'>\n\n(The 'bool' class is a sub-class of 'int'.)\n\nWhereas the 'or' and 'and' operators return one of the operands as an object: 'or' returns the first (left-most) operand that is true, or the right-most operand if none are true.\n\n    >>> 'a' or 3\n    'a'\n    >>> 0 or []\n    []\n    >>> [] or 0\n    0\n\nand 'and' returns the first false operand (from left to right) or the right-most operand if all are true:\n\n    >>> 'a' and 3\n    3\n    >>> 0 and []\n    0\n    >>> [] and 0\n    []\n    >>> 3 and []\n    []",
+        "id": 116,
+        "status": "unposted"
+    },
+    {
+        "content": "Use the `script` command in #bash to make a record of an interactive session. The default filename is 'typescript' which can be changed by passing an argument; `-a` appends to the existing file. Sessions can be recorded and played back.",
+        "id": 117,
+        "status": "unposted"
+    },
+    {
+        "content": "Convert between different physical units at the command line using the `units` command in #bash",
+        "id": 118,
+        "status": "unposted"
+    },
+    {
+        "content": "In #bash the `for` command has a default argument `in \"$@\"`, so will by default loop over the positional parameters; i.e.:\n\n    for x ; do\n       echo $x\n    done\n\nis equivalent to:\n\n    for x in \"$@\" ; do\n        echo $x\n    done",
+        "id": 119,
+        "status": "unposted"
+    },
+    {
+        "content": "In #bash the environment variable `$RANDOM` stores a random number between 0 and 32,767, regenerated each time it is referenced.",
+        "id": 120,
+        "status": "unposted"
+    },
+    {
+        "content": "The `trap` command in a #bash script intercepts signals sent to the process and performs the specified commands before exiting:\n\n    trap [commands] [signals]\n\nE.g. to clean up a temporary file on receipt of signal 1 (hangup) or 2 (interrupt)\n\n    trap 'rm file.tmp; exit' 1 2\n\nThe exit code of the `exit` statement will be that of the most recent command, in the case the `rm` command.",
+        "id": 121,
+        "status": "unposted"
+    },
+    {
+        "content": "Iterate over two sequences in parallel in #python, with `zip`; e.g. to combine two lists into a dictionary:\n\n   >>> l1 = ['a', 'b', 'c', 'd']\n   >>> l2 = [10, 2, 23, 0]\n   >>> for (key, val) in zip(l1, l2): mydict(key) = val\n   >>> mydict\n   {'a': 10, 'b': 2, 'c': 23, 'd': 0}\n",
+        "id": 122,
+        "status": "unposted"
+    },
+    {
+        "content": "In #python get the docstring for a module, function or class by printing its `__doc__` attribute:\n\n    >>> import sys\n    >>> print(sys.__doc__)\n    >>> print(sys.getrefcount.__doc__)\n    >>> print(int.__doc__)\n    >>> print(open.__doc__)\n",
+        "id": 123,
+        "status": "unposted"
+    },
+    {
+        "content": "The `rev` command in #bash reverses the order of characters in the file given as an argument (or stdin)",
+        "id": 124,
+        "status": "unposted"
+    },
+    {
+        "content": "Redirect output from print statements in #python:\n\n    import sys\n    sys.stdout = open('output.log', 'a')\n\nSubsequent print statements will append text to the specified file, using the `sys.stdout.write()` method. You can redirect `sys.stdout` to any object that has a `write()` method.\n\nIf you want to restore the original value of `sys.stdout`, you can save it before changing it and then restore it afterwards. However `print` allows this on the fly:\n\n    log = ('output.log', 'a')\n    print(\"Hello, world!\", file=log)",
+        "id": 125,
+        "status": "unposted"
+    },
+    {
+        "content": "With gzipped file use `gzcat`, `zforce`, `zmore`, to cat, force a '.gz' extension, and page the file whilst compressed.",
+        "id": 126,
+        "status": "unposted"
+    },
+    {
+        "content": "Using grep with `-w` option performs a word-only search:\n\n    $ grep -w git ./text.md\n\nmatches 'git', '.git', 'git-branch' '#git', etc., but not '.gitignore', 'gitk', 'github', 'boggit', etc.",
+        "id": 127,
+        "status": "unposted"
+    },
+    {
+        "content": "The `join` command in #bash extracts and joins the lines from two files that have a common field. The default is to use the first field, e.g.:\n\n    $ cat a.dat\n    a 1 2 3\n    b 2 3\n    $ cat b.dat\n    b 1 3\n    c 9 3\n    $ join a.dat b.dat\n    b 2 3 1 3\n\nUseful if you have data about some object ('b' in this case) across multiple files. Nest commands if more that two files:\n\n    $ join <(join a.dat b.dat) c.dat\n\nThe `-a` option can be used to show unmatched lines.",
+        "id": 128,
+        "status": "unposted"
+    },
+    {
+        "content": "Mute the startup chime on #macOS Monterey:\n\n    $ sudo nvram StartupMute=%01\n\n(Older versions involved setting `SystemAudioVolume`)",
+        "id": 129,
+        "status": "unposted"
+    },
+    {
+        "content": "In a #makefile use `VPATH` to specify directories that `make` should search for either prerequisite files or targets of rules; e.g:\n\n    VPATH = src:../headers\n\nSee https://www.gnu.org/software/make/manual/make.html#General-Search",
+        "id": 130,
+        "status": "unposted"
+    },
+    {
+        "content": "In #git, show the commit that a tag or branch points to with:\n\n    $ git rev-list -n1 <name>\n\nTo be more specific (e.g. if a tag and a branch exist of the same name):\n\n    $ git rev-list -n1 tags/<tagname>\n    $ git rev-list -n1 heads/<branchname>\n",
+        "id": 131,
+        "status": "unposted"
+    },
+    {
+        "content": "Create and search an index for a text file or files:\n\n    $ indxbib file.txt\n    $ lookbib file.txt\n\nThe first command creates an inverse index of the file (called file.txt.i), and the second command is an interactive command for searching; enter search terms at the prompt. Common words (stopwords) are discarded in the creation of the index.\n\nThe main purpose of these (and related commands such as `refer`) are to manage a bibliographic database. They're part of the `groff` text-formatting system.",
+        "id": 132,
+        "status": "unposted"
+    },
+    {
+        "content": "Wildcard expansion in #makefiles...\n\nWildcards in _recipes_ are passed on the shell, which expands them; e.g.:\n\n    clean:\n    \trm -f *.o\n\nWildcards in _prequisites_ are expanded by `make`; E.g.:\n\n    print: *.c\n    \techo $?\n        touch print\n\nlists all the C files that have been updated since the last time `make print` was run.\n\nHowever wildcards in _variable definitions_ are *not* expanded; e.g.:\n\n    objects = *.o\n    foo : $(objects)\n    \tcc -o foo $(objects)\n\ndoes *not* work.\n\nFor this case, use instead the `wildcard` function:\n\n    objects := $(wildcard *.o)\n\nSee https://www.gnu.org/software/make/manual/make.html#Wildcards",
+        "id": 133,
+        "status": "unposted"
+    },
+    {
+        "content": "In #python 2 the `map` function allowed the simple joining of sequences by specifying `None` as the first argument:\n\n    >>> map(None, ['a', 'b'], (1, 2))\n    [('a', 1), ('b', 2)]\n\nThis was useful in joining sequences of different lengths:\n\n    >>> map(None, ['a', 'b'], (1, 2, 3))\n    [('a', 1), ('b', 2), (None, 3)]\n\nIn Python 3 this no longer works:\n\n    >>> list(map(None, ['a', 'b'], (1, 2)))\n    Traceback (most recent call last):\n      File \"<stdin>\", line 1, in <module>\n    TypeError: 'NoneType' object is not callable\n\n(The additional `list()` syntax is required because in Python 3 `map` is now a class not a function.)\n\nUse instead `itertools.zip_longest`:\n\n    >>> import itertools\n    >>> list(itertools.zip_longest(['a', 'b'], (1, 2, 3)))\n    [('a', 1), ('b', 2), (None, 3)]",
+        "id": 134,
+        "status": "unposted"
+    },
+    {
+        "content": "One-liner in #python to covert YAML (on standard in) into JSON:\n\n    $ python3 -c 'import sys, yaml, json; json.dump(yaml.load(sys.stdin, Loader=yaml.FullLoader), sys.stdout, indent=4)'\n",
+        "id": 135,
+        "status": "unposted"
+    },
+    {
+        "content": "Delete a #git branch or tag on the remote by pushing an empty refspec:\n\n    $ git push origin :refs/heads/foo  # Deletes branch foo on origin\n    $ git push upstream :refs/tags/bar # Deletes tag bar on upstream\n\nEspecially useful if a branch and a tag of the same name exist, and:\n\n    $ git push origin --delete baz\n\nwould refuse to delete anything because of the ambiguity.",
+        "id": 136,
+        "status": "unposted"
+    },
+    {
+        "content": "Set environment variables in a #docker container with `ENV`:\n\n    ENV NAME=value\n\nTo set at runtime instead:\n\n    $ docker run -e NAME=value my-docker-image\n",
+        "id": 137,
+        "status": "posted"
+    },
+    {
+        "content": "Get the path to #git executables on your system with:\n\n    $ git --exec-path\n",
+        "id": 138,
+        "status": "unposted"
+    },
+    {
+        "content": "See http://mywiki.wooledge.org/BashPitfalls for common #bash pitfalls",
+        "id": 139,
+        "status": "unposted"
+    },
+    {
+        "content": "#python built-in functions and types that are always available to the interpreter: https://docs.python.org/3/library/functions.html",
+        "id": 140,
+        "status": "unposted"
+    },
+    {
+        "content": "Install #xcode command-line tools on #macOS with:\n\n    $ xcode-select --install\n\nTo the see the installation path:\n\n    $ xcode-select --print-path\n\n(or -p for short).",
+        "id": 141,
+        "status": "unposted"
+    },
+    {
+        "content": "Create an interactive Ubuntu #docker container:\n\n    $ docker run -it --rm ubuntu bash\n\n(`-it` makes the container interactive and `--rm` cleans up after exit)",
+        "id": 142,
+        "status": "unposted"
+    },
+    {
+        "content": "#bash shell arithmetic: https://www.gnu.org/software/bash/manual/html_node/Shell-Arithmetic.html",
+        "id": 143,
+        "status": "unposted"
+    },
+    {
+        "content": "Rebase instead of merge when doing #git pull:\n\n    $ git pull --rebase=true\n",
+        "id": 144,
+        "status": "unposted"
+    },
+    {
+        "content": "Unofficial 'strict mode' in #bash - http://redsymbol.net/articles/unofficial-bash-strict-mode/",
+        "id": 145,
+        "status": "unposted"
+    },
+    {
+        "content": "#docker and #ansible solve two different problems and they can be used together: https://nickjanetakis.com/blog/docker-and-ansible-solve-2-different-problems-and-they-can-be-used-together",
+        "id": 146,
+        "status": "unposted"
+    },
+    {
+        "content": "Clear saved credentials from #git for a given user/host:\n\n    $ echo url=https://tif@github.com | git credential reject\n\nSee https://git-scm.com/docs/gitfaq#http-reset-credentials",
+        "id": 147,
+        "status": "unposted"
+    },
+    {
+        "content": "Start the #apache web server on #macOS Monterey:\n\n    sudo launchctl load -w /System/Library/LaunchDaemons/org.apache.httpd.plist\n\nThe document root is in /Library/WebServer/Documents",
+        "id": 148,
+        "status": "unposted"
+    },
+    {
+        "content": "#macOS defaults list: https://macos-defaults.com",
+        "id": 149,
+        "status": "unposted"
+    },
+    {
+        "content": "Ten years later: cloud computing is closing the performance gap: https://t.co/Rb0GbVcdv2",
+        "id": 150,
+        "status": "unposted"
+    },
+    {
+        "content": "Fuzz testing explained: https://www.freecodecamp.org/news/whats-fuzzing-fuzz-testing-explained",
+        "id": 151,
+        "status": "unposted"
+    },
+    {
+        "content": "Using #regex with a capture group in sed:\n\n    $ sed -E \"s/(.*)\\.jpeg/\\1.jpg/g\" <<< \"example.jpeg\"\n\nThe pattern matched within the brackets is saved a c 'capture group' which is referenced with '\\1'.",
+        "id": 152,
+        "status": "unposted"
+    },
+    {
+        "content": "Linux Documentation Project Introduction to Linux: https://tldp.org/LDP/intro-linux/html/index.html",
+        "id": 153,
+        "status": "unposted"
+    },
+    {
+        "content": "How to write a Git commit message\n\nhttps://cbea.ms/git-commit",
+        "id": 154,
+        "status": "unposted"
+    },
+    {
+        "content": "#git commit message template in Terminal and #vscode: https://dev.to/abbeyperini/git-commit-message-template-in-terminal-and-vs-code-326p",
+        "id": 155,
+        "status": "unposted"
+    },
+    {
+        "content": "In #git, check the validity of objects in the database with:\n\n    $ git fsck\n\nE.g. to check for dangling commits and tags.",
+        "id": 156,
+        "status": "unposted"
+    },
+    {
+        "content": "Using templates to write better #git commit messages: https://gist.github.com/lisawolderiksen/a7b99d94c92c6671181611be1641c733",
+        "id": 157,
+        "status": "unposted"
+    },
+    {
+        "content": "Check if a TCP port is open on #macOS:\n\n    $ nc -zv <ip-address> <port>",
+        "id": 158,
+        "status": "unposted"
+    },
+    {
+        "content": "Use `--simplify-by-decoration` with `git log` to show only commits that are labelled by a branch or tag in #git",
+        "id": 159,
+        "status": "unposted"
+    },
+    {
+        "content": "List #git branches/tags with `git for-each-ref`. Alone it will list all local and remote branches and all tags:\n\n    git for-each-ref\n\nSpecify patterns to match to filter; e.g.:\n\n    git for-each-ref refs/heads\n\nwill list only local branches.\n\nModify the format with `--format`; you can use certain pre-defined field names in the format string, which are substituted; e.g.:\n\n    git for-each-ref --format='%(refname)'\n\nwill list only the (full) name of each reference.\n\nWhile this provides better output to loop over in a script than, say, `git tag` or `git branch`, you can even have `for-each-ref` create a script on the fly which can be executed. E.g.:\n\n    git for-each-ref --format='echo \"Branch = %(refname)\";' --shell\n\nPass this to `eval` to be executed.\n\n    eval $(git for-each-ref --format='echo \"Branch = %(refname)\";' --shell)",
+        "id": 160,
+        "status": "unposted"
+    },
+    {
+        "content": "In #vim use 'A' (in normal mode) to start appending to the end of the current line",
+        "id": 161,
+        "status": "unposted"
+    },
+    {
+        "content": "In #bash display a file with line endings:\n\n    $ cat -e <filename>\n\nUnix line endings are displayed as as `$` and Windows line endings as `^M$`. The `-t` option will show tabs as `^I`, and `-A` will show both line endings and tabs.",
+        "id": 162,
+        "status": "unposted"
+    },
+    {
+        "content": "Comments in HTML start with `<!--` and end with `-->`",
+        "id": 163,
+        "status": "unposted"
+    },
+    {
+        "content": "Update an existing #conda environment from an updated YAML file:\n\n    $ conda env create update -f environment.yml --prune\n\nThe `--prune` option uninstalls dependencies which were removed.",
+        "id": 164,
+        "status": "unposted"
+    },
+    {
+        "content": "The `zip` function in #python is (almost) its own inverse. Use it to zip two lists:\n\n    >>> k = ['a','b']\n    >>> v = [1,2]\n    >>> x=list(zip(k,v))\n    >>> x\n    [('a', 1), ('b', 2)]\n\n`zip()` returns an iterator so for convenience here we store it as a list.\n\nThen unzip it again using `zip()` a second time, with the special `*` unpacking operator:\n\n    >>> list(zip(*x))\n    [('a', 'b'), (1, 2)]",
+        "id": 165,
+        "status": "unposted"
+    },
+    {
+        "content": "The #python `os.path.split()` function splits a path into a `(head, tail)` pair where `tail` is the last component of the pathname (what you would get from `basename`) and the `head` is everything up to that (what you would get from `dirname`).",
+        "id": 166,
+        "status": "unposted"
+    },
+    {
+        "content": "Zip two lists into a dictionary in #python:\n\n    >>> keys = ['a','b','c']\n    >>> vals = [1,2,3]\n    >>> dict(zip(keys,vals))\n    {'a': 1, 'b': 2, 'c': 3}\n",
+        "id": 167,
+        "status": "unposted"
+    },
+    {
+        "content": "On #macOS use `diskutil list` to see all local disks and their partitions. Add `internal`, `external`, `physical` or `virtual` to see only those types of disk, and add `-plist` to get machine-readable XML output.",
+        "id": 168,
+        "status": "unposted"
+    },
+    {
+        "content": "When sub-classing in #python, you can override a superclass's `__init__` method by defining your own `__init__` method in the subclass. You can then call the superclass's `__init__` method at will. E.g.:\n\nDefine a class `Sub` as a sub-class of `Super`:\n\n    class Sub(Super):\n        def __init__(self, ...):\n            # Do some stuff\n            Super.__init__(self, ...)\n            # More stuff\n",
+        "id": 169,
+        "status": "unposted"
+    },
+    {
+        "content": "Find files and apply a command to the results in #bash with `find`, e.g.:\n\n    find <path> <args> -exec <cmd> {} \\;\n\napplies `<cmd>` to the results; `{}` is  placeholder for the results and ';' (which needs to be escaped) indicates the command should be applied to each file.\n\nAlternatively:\n\n    find <path> <args> -exec <cmd> {} +\n\nindicates `<cmd>` is executed once on the results as a whole.",
+        "id": 170,
+        "status": "unposted"
+    },
+    {
+        "content": "#vim tip: use 'o' or 'O' (in normal mode) to add a new line after or before the current one, respectively (leaving you in insert mode)",
+        "id": 171,
+        "status": "unposted"
+    },
+    {
+        "content": "Type `f<char>` in #vim normal mode to move to the next instance of `<char>` on the current line, or `F<char>` to move to the previous instance",
+        "id": 172,
+        "status": "unposted"
+    },
+    {
+        "content": "In #vim use `I` (in normal mode) to start inserting text at the beginning of the current line.",
+        "id": 173,
+        "status": "unposted"
+    },
+    {
+        "content": "Find the set difference between two arrays in #python NumPy:\n\n    >>> import numpy as np\n    >>> array1 = [1, 2, 3]\n    >>> array2 = [3, 4]\n    >>> np.setdiff1d(array1, array2)\n    array([1, 2])\n\nIn #python `os.mkdir()` makes a directory (like #bash `mkdir`) and `os.makedirs()` recursively makes all intermediate directories in the provided path, and with `exist_ok=True` doesn't raise an error if any exist (like #bash `mkdir -p`).",
+        "id": 174,
+        "status": "unposted"
+    },
+    {
+        "content": "Cookiecutter is a command-line utility that creates projects, e.g. a #python package, from templates. Cross-platform, language-agnostic, works with templates stored locally or on #github, thousands of pre-existing templates available.\n\nhttps://cookiecutter.readthedocs.io",
+        "id": 175,
+        "status": "unposted"
+    },
+    {
+        "content": "Set:\n\n    $ git config --global user.useConfigOnly true\n\nto prevent #git commits when the user name and email are not set; useful when the same user wants different names/emails for different projects. Without this setting Git will guess and use defaults.",
+        "id": 176,
+        "status": "unposted"
+    },
+    {
+        "content": "List pip-installed packages:\n\n    $ pip list\n\n#python",
+        "id": 177,
+        "status": "unposted"
+    },
+    {
+        "content": "Get environment variable in #python with `os.environ`:\n\n    >>> import os\n    >>> print(os.environ['AUTH_TOKEN'])\n",
+        "id": 178,
+        "status": "unposted"
+    },
+    {
+        "content": "Reload a file in #vim (if it has changes externally) with `:e`. Use `:e!` to discard any local changes.",
+        "id": 179,
+        "status": "unposted"
+    },
+    {
+        "content": "Reload an imported package in #python:\n\n    >>> from importlib import reload\n    >>> reload(package_name)\n",
+        "id": 180,
+        "status": "unposted"
+    }
+]
