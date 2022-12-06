@@ -502,7 +502,7 @@
     {
         "content": "Add a global .gitignore file in #git:\n\n    $ git config --global core.excludesfile <path-to-file>\n\nThis will be respected by all Git repositories on your system.\n\nNote however that unlike with a local .gitignore checked into the repository, other users who clone your project will not have this and therefore will potentially see different results from e.g. `git status`.",
         "id": 100,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "The grep command family: `fgrep` is faster at the expense of only being able to handle fixed strings (not regular expressions), and `egrep` can handle extended regular expressions. `zgrep`, `zfgrep` and `zegrep` are equivalents that can also handle compressed or gzipped data.",
