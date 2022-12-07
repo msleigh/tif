@@ -18,7 +18,7 @@ Use as per [`postodon` instructions](https://github.com/msleigh/postodon).
 
 ### GitHub Action
 
-A GitHub Action posts twice daily. The Mastadon app (`tif`) access token is stored as GitHub secret `AUTH_TOKEN`. The Action commits / pushes the change to `posts.json` (i.e. marking the post as posted).
+A GitHub Action posts daily. The Mastadon app (`tif`) access token is stored as GitHub secret `AUTH_TOKEN`. The Action commits / pushes the change to `posts.json` (i.e. marking the post as posted).
 
 ### Adding new posts
 

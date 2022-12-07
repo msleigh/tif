@@ -2,7 +2,7 @@ name: post
 on:
     workflow_dispatch:
     schedule:
-        - cron: '15 12,18 * * *'
+        - cron: '15 12 * * *'
 
 jobs:
     setup:
