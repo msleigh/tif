@@ -837,7 +837,7 @@
     {
         "content": "Zip two lists into a dictionary in #python:\n\n    >>> keys = ['a','b','c']\n    >>> vals = [1,2,3]\n    >>> dict(zip(keys,vals))\n    {'a': 1, 'b': 2, 'c': 3}\n",
         "id": 167,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "On #macOS use `diskutil list` to see all local disks and their partitions. Add `internal`, `external`, `physical` or `virtual` to see only those types of disk, and add `-plist` to get machine-readable XML output.",
