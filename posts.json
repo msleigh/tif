@@ -903,5 +903,10 @@
         "content": "Reload an imported package in #python:\n\n    >>> from importlib import reload\n    >>> reload(package_name)\n",
         "id": 180,
         "status": "unposted"
+    },
+    {
+        "content": "Interactive #vim tutorial: https://www.openvim.com",
+        "id": 181,
+        "status": "unposted"
     }
 ]
