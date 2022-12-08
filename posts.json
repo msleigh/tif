@@ -487,7 +487,7 @@
     {
         "content": "The `-ok` expression is an alternative to `-exec` in the `find` command, but which stops and asks for confirmation before executing the given command, e.g.:\n\n    $ find ~ -name .DS_Store -ok rm {} \\;\n\nThe syntax is otherwise the same as for `-exec`. Type 'y' to execute the command, or anything else to move on to the next result.",
         "id": 97,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Set #matplotlib figure size in a #jupyter notebook using (for example):\n\n    import matplotlib.pyplot as plt\n    plt.rcParams[\"figure.figsize\"] = 16,4",
