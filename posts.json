@@ -252,7 +252,7 @@
     {
         "content": "Use Apache virtual hosts on #macOS: https://jasonmccreary.me/articles/configure-apache-virtualhost-mac-os-x",
         "id": 50,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Centre and scale a dataset (e.g. Pandas dataframe column or series) to zero mean and unit variance, in scikit-learn:\n\n    from sklearn.preprocessing import StandardScalar\n    scaler = StandardScaler(with_mean = True, with_std = True)\n    scaled_data = scalar.transform(data)\n\nIn sklearn-pandas, which provides Pandas integration with scikit-learn, create a DataFrameMapper object, which maps columns of a Pandas dataframe to different scikit-learn transformations:\n\n    from sklearn_pandas import DataFrameMapper\n    mapper = DataFrameMapper([\n        (['column1'], StandardScaler()),\n        (['column2'], None),\n        ])\n    scaled_df = mapper.fit_transform(df)\n\nColumns not included in the mapper are dropped from the scaled dataframe.",
