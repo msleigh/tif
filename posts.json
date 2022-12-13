@@ -512,7 +512,7 @@
     {
         "content": "In #bash the `for` command has a default argument `in \"$@\"`, so will by default loop over the positional parameters; i.e.:\n\n    for x ; do\n       echo $x\n    done\n\nis equivalent to:\n\n    for x in \"$@\" ; do\n        echo $x\n    done\n",
         "id": 102,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "#python allows compound size comparison tests so you can more compactly test if a value is in a given range, e.g.:\n\n    a = 1\n    b = 10\n    x = 5.5\n    if a < x < b:\n        print('In range')\n",
