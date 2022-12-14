@@ -382,7 +382,7 @@
     {
         "content": "Create an array of evenly-spaced numbers in #python with #numpy:\n\n    >>> import numpy as np\n    >>> x = np.linspace(min, max[, n])\n\nwhere `min` and `max` are the (included) upper and lower bounds, and `n` is the number of points (default: 50).",
         "id": 76,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Stop a #docker container with:\n\n    docker stop <container-id>\n\nand remove it with:\n\n    docker rm <container-id>",
