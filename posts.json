@@ -677,7 +677,7 @@
     {
         "content": "One-liner in #python to covert YAML (on standard in) into JSON:\n\n    $ python3 -c 'import sys, yaml, json; json.dump(yaml.load(sys.stdin, Loader=yaml.FullLoader), sys.stdout, indent=4)'\n",
         "id": 135,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Delete a #git branch or tag on the remote by pushing an empty refspec:\n\n    $ git push origin :refs/heads/foo  # Deletes branch foo on origin\n    $ git push upstream :refs/tags/bar # Deletes tag bar on upstream\n\nEspecially useful if a branch and a tag of the same name exist, and:\n\n    $ git push origin --delete baz\n\nwould refuse to delete anything because of the ambiguity.",
