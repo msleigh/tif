@@ -137,7 +137,7 @@
     {
         "content": "In #python\n\n    >>> my_string.find('sub-string')\n\nreturns the index at which `sub-string` starts within the string `my_string`.",
         "id": 27,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Update a Tex Live or MacTex #latex installation with tlmgr:\n\nUpdate the tlmgr configuration tool itself:\n\n    $ sudo tlmgr update --self\n\nSee what would be updated (dry run):\n\n    $ tlmgr update --list\n\nUpdate:\n\n    $ sudo tlmgr update --all\n\nTo learn more:\n\n    $ man tlmgr\n",
