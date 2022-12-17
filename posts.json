@@ -517,7 +517,7 @@
     {
         "content": "#python allows compound size comparison tests so you can more compactly test if a value is in a given range, e.g.:\n\n    a = 1\n    b = 10\n    x = 5.5\n    if a < x < b:\n        print('In range')\n",
         "id": 103,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "You can restrict sed to work on a subset of a file by specifying line numbers, e.g.:\n\n    sed '1,4s/search/replace/g' file.txt\n\nreplaces 'search' with 'replace' in lines 1-4 of file.txt.\n\nBut it can also subset by context; e.g.:\n\n    sed '/DO/,/ENDDO/s/search/replace/g' file.txt\n\nreplaces 'search' with 'replace' within sections starting with 'DO' and ending with 'ENDDO'.\n\nInvert the match with '!':\n\n\n    sed '/DO/,/ENDDO/!s/search/replace/g' file.txt\n\nto replace with 'search' with 'replace' everywhere _outside_ DO...ENDDO blocks.",
