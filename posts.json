@@ -107,7 +107,7 @@
     {
         "content": "Specify a username when cloning a repository from #github (for example) using HTTPS:\n\n    $ git clone https://username@github.com/...\n",
         "id": 21,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Manage abbreviations in #latex (e.g. automatically spell them out the first time they're used, compile a list of abbreviations automatically) using the `acronym` package. Run `texdoc acronym` for info.",
