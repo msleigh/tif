@@ -817,7 +817,7 @@
     {
         "content": "Comments in HTML start with `<!--` and end with `-->`",
         "id": 163,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Update an existing #conda environment from an updated YAML file:\n\n    $ conda env create update -f environment.yml --prune\n\nThe `--prune` option uninstalls dependencies which were removed.",
