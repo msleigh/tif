@@ -92,7 +92,7 @@
     {
         "content": "Create a #python dictionary with tuple keys:\n\n    >>> my_dict = {(x, y): x**2 + 2*y for x in range(5) for y in range(2)}\n",
         "id": 18,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Fully compile a #latex document in one step (running the LaTeX compiler the required number of times automatically) using `latexmk`:\n\n    $ latexmk -pdf document.tex\n",
