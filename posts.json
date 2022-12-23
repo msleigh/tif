@@ -397,7 +397,7 @@
     {
         "content": "Annotate a #matplotlib plot with:\n\n    >>> import matplotlib.pyplot as plt\n    ...\n    >>> plt.annotate(str, xy)\n\nwhere `str` is the annotation text and `xy` is a tuple of the x and y coordinates.\n\nThe default coordinate system is 'data', i.e. the coordinate system of the object being annotated; but this can be changed with the `xycoord` keyword argument.",
         "id": 79,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "The `view` command is a read-only version of #vi, equivalent to `vi -R`",
