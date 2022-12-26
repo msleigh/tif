@@ -437,7 +437,7 @@
     {
         "content": "Singularity Containers for HPC & Deep Learning: https://www.nextplatform.com/2018/03/19/singularity-containers-for-hpc-deep-learning/",
         "id": 87,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Print only lines where a replacement has been made in `sed`:\n\n    $ sed -n 's/search/replace/gp' file.txt\n\nThe '-n' option suppresses standard output, and the 'p' flag in the substitute command prints lines where a replacement has been made.",
