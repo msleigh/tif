@@ -882,7 +882,7 @@
     {
         "content": "Set:\n\n    $ git config --global user.useConfigOnly true\n\nto prevent #git commits when the user name and email are not set; useful when the same user wants different names/emails for different projects. Without this setting Git will guess and use defaults.",
         "id": 176,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "List pip-installed packages:\n\n    $ pip list\n\n#python",
