@@ -567,7 +567,7 @@
     {
         "content": "In #bash the `hash` command displays a list of the full paths to the commands used so far in the shell, and the number of times used (hits).",
         "id": 113,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "In #bash the `find` command can work on multiple directories if they are listed (space-separated) in the pathname, e.g.:\n\n    $ find ./projectA ../projectB -name .gitignore\n\nThis means wildcards can also be used:\n\n    $ find projects/* -type d -name .git\n\nUnlike when using wildcards in the arguments to expressions (such as `-name \"data*.csv\"`) we don't want to quote this, because here the shell is expanding the wildcard before sending anything to `find`.",
