@@ -367,7 +367,7 @@
     {
         "content": "Indent or unindent the current line in #vim with '>>' or '<<', respectively.\n\nIndent or unindent one or more lines selected in visual line mode (SHIFT-V) with '>' or '<' respectively.",
         "id": 73,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Run a #python web server:\n\n    $ python3 -m http.server 8000\n\nand connect at 'http://localhost:8000'.",
