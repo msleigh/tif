@@ -277,7 +277,7 @@
     {
         "content": "The `sed` is not limited to using `/` as delimiter; e.g. uses whatever comes after 's' in substitute commands:\n\n    $ echo cat | sed 's/cat/dog/'\n    $ echo cat | sed 's,cat,dog,'\n    $ echo cat | sed 's:cat:dog:'\n    $ echo cat | sed 'szcatzdogz'\n    $ echo cat | sed 's9cat9dog9'\n",
         "id": 55,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "The #100DaysOfCode Challenge, its history, and why you should try it\n\nhttps://www.freecodecamp.org/news/the-crazy-history-of-the-100daysofcode-challenge-and-why-you-should-try-it-for-2018-6c89a76e298d/",
