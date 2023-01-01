@@ -407,7 +407,7 @@
     {
         "content": "You can use a different delimiter in `sed` substitute commands. You can also use a different delimiter in delete commands; but you need to prefix the delimiter with a backslash.\n\nI.e. changing:\n\n    $ sed \"/line to delete/d\"\n\nto:\n\n    $ sed \"|line to delete|d\"\n\nwill not work; you need:\n\n    $ sed \"\\|line to delete|d\"\n",
         "id": 81,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Copy a file converting it to all-lower-case:\n\n    $ dd if=input.txt of=output.txt conv=lcase\n\n(or `tr 'A-Z' 'a-z' <input.txt >output.txt`).\n\nUse `dd ... conv=ucase` to convert all to upper case.",
