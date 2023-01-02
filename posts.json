@@ -887,7 +887,7 @@
     {
         "content": "List pip-installed packages:\n\n    $ pip list\n\n#python",
         "id": 177,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Get environment variable in #python with `os.environ`:\n\n    >>> import os\n    >>> print(os.environ['AUTH_TOKEN'])\n",
