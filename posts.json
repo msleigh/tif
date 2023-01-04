@@ -462,7 +462,7 @@
     {
         "content": "Get a simple word-frequency list from a atext file with this #bash one-liner:\n\n    tr -sc 'A-Za-z' '\\n' <input.txt | tr 'A-Z' 'a-z' | sort | uniq -c | sort +0 -1nr +1 -2",
         "id": 92,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Use `sed` to extract C multiline comments:\n\n    sed '/\\/\\*/,/\\/\\*/!d' file.c\n\nThe command 'pattern1,pattern2!d' specifies a range to operate on, starting with wherever 'pattern1' is matched, and ending where 'pattern2' is matched.\n\nThe 'd' function deletes the matched lines, and '!d' negates that to delete everything but the matched range. The range is defined by matching '/*' through to '*/', which enclose a C multi-line comment; so here pattern1 is \\/\\* and pattern2 is \\*\\/.\n\nThere are easier ways to do this; the idea is to demonstrate how sed can be used.",
