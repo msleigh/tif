@@ -422,7 +422,7 @@
     {
         "content": "Create a #conda environment from a YAML file:\n\n    $ conda env create -f environment.yml\n\nThe environment name is taken from the first line of the YAML file.",
         "id": 84,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "With the `tr` command in #bash, use the `-c` option to get the complement of the first character set. E.g. to delete all character _except_ letters and space:\n\n    tr -c '[:alpha:] ' <input.txt",
