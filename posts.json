@@ -682,7 +682,7 @@
     {
         "content": "Delete a #git branch or tag on the remote by pushing an empty refspec:\n\n    $ git push origin :refs/heads/foo  # Deletes branch foo on origin\n    $ git push upstream :refs/tags/bar # Deletes tag bar on upstream\n\nEspecially useful if a branch and a tag of the same name exist, and:\n\n    $ git push origin --delete baz\n\nwould refuse to delete anything because of the ambiguity.",
         "id": 136,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Set environment variables in a #docker container with `ENV`:\n\n    ENV NAME=value\n\nTo set at runtime instead:\n\n    $ docker run -e NAME=value my-docker-image\n",
