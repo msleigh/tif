@@ -722,7 +722,7 @@
     {
         "content": "Rebase instead of merge when doing #git pull:\n\n    $ git pull --rebase=true\n",
         "id": 144,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Unofficial 'strict mode' in #bash - http://redsymbol.net/articles/unofficial-bash-strict-mode/",
