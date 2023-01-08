@@ -692,7 +692,7 @@
     {
         "content": "Get the path to #git executables on your system with:\n\n    $ git --exec-path\n",
         "id": 138,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "See http://mywiki.wooledge.org/BashPitfalls for common #bash pitfalls",
