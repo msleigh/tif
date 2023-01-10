@@ -292,7 +292,7 @@
     {
         "content": "Fix indentation in all lines of a file below the cursor in #vim with `=G`.",
         "id": 58,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Dot-underscore (`._`...) files in #macOS: https://apple.stackexchange.com/questions/14980",
