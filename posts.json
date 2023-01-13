@@ -657,7 +657,7 @@
     {
         "content": "In #git, show the commit that a tag or branch points to with:\n\n    $ git rev-list -n1 <name>\n\nTo be more specific (e.g. if a tag and a branch exist of the same name):\n\n    $ git rev-list -n1 tags/<tagname>\n    $ git rev-list -n1 heads/<branchname>\n",
         "id": 131,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Create and search an index for a text file or files:\n\n    $ indxbib file.txt\n    $ lookbib file.txt\n\nThe first command creates an inverse index of the file (called file.txt.i), and the second command is an interactive command for searching; enter search terms at the prompt. Common words (stopwords) are discarded in the creation of the index.\n\nThe main purpose of these (and related commands such as `refer`) are to manage a bibliographic database. They're part of the `groff` text-formatting system.",
