@@ -57,7 +57,7 @@
     {
         "content": "In #linux/#macOS, `who` lists the users currently on the system.\n\n`who -m` shows the current user; so does `who am i`, or `who` with any two arguments (`who mom likes`, `who w w`, ...).\n\nThe separate command `whoami` also gives the current user, as does `id -un` and usually, although not guaranteed, `echo $USER`.",
         "id": 11,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Linux Documentation Project Advanced Bash Scripting Guide: https://tldp.org/LDP/abs/html/index.html",
