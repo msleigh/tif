@@ -272,7 +272,7 @@
     {
         "content": "Vim allows the insertion of characters that aren't on the keyboard via 'digraphs'. These are two-character codes that represent a single character, e.g. 'Co' represents the copyright symbol \u00a9. To insert a symbol using a digraph, type CTRL-K, then the two characters.\n\nType `:help digraphs` for more information, and `:digraphs` for a list. Ensure Unicode support is turned on to get the full set: `:set encoding=utf-8`.",
         "id": 54,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "The `sed` is not limited to using `/` as delimiter; e.g. uses whatever comes after 's' in substitute commands:\n\n    $ echo cat | sed 's/cat/dog/'\n    $ echo cat | sed 's,cat,dog,'\n    $ echo cat | sed 's:cat:dog:'\n    $ echo cat | sed 'szcatzdogz'\n    $ echo cat | sed 's9cat9dog9'\n",
