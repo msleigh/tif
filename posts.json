@@ -282,7 +282,7 @@
     {
         "content": "The #100DaysOfCode Challenge, its history, and why you should try it\n\nhttps://www.freecodecamp.org/news/the-crazy-history-of-the-100daysofcode-challenge-and-why-you-should-try-it-for-2018-6c89a76e298d/",
         "id": 56,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Type 'gg' to go to the first line in a file in #vim (':0' also works, since ':n' takes you to the nth line.)",
