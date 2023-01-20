@@ -652,7 +652,7 @@
     {
         "content": "In a #makefile use `VPATH` to specify directories that `make` should search for either prerequisite files or targets of rules; e.g:\n\n    VPATH = src:../headers\n\nSee https://www.gnu.org/software/make/manual/make.html#General-Search",
         "id": 130,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "In #git, show the commit that a tag or branch points to with:\n\n    $ git rev-list -n1 <name>\n\nTo be more specific (e.g. if a tag and a branch exist of the same name):\n\n    $ git rev-list -n1 tags/<tagname>\n    $ git rev-list -n1 heads/<branchname>\n",
