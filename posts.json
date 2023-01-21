@@ -877,7 +877,7 @@
     {
         "content": "Cookiecutter is a command-line utility that creates projects, e.g. a #python package, from templates. Cross-platform, language-agnostic, works with templates stored locally or on #github, thousands of pre-existing templates available.\n\nhttps://cookiecutter.readthedocs.io",
         "id": 175,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Set:\n\n    $ git config --global user.useConfigOnly true\n\nto prevent #git commits when the user name and email are not set; useful when the same user wants different names/emails for different projects. Without this setting Git will guess and use defaults.",
