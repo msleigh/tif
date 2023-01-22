@@ -417,7 +417,7 @@
     {
         "content": "Find all broken links:\n\n    $ find . -xtype l\n",
         "id": 83,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Create a #conda environment from a YAML file:\n\n    $ conda env create -f environment.yml\n\nThe environment name is taken from the first line of the YAML file.",
