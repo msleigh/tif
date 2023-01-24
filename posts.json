@@ -777,7 +777,7 @@
     {
         "content": "#git commit message template in Terminal and #vscode: https://dev.to/abbeyperini/git-commit-message-template-in-terminal-and-vs-code-326p",
         "id": 155,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "In #git, check the validity of objects in the database with:\n\n    $ git fsck\n\nE.g. to check for dangling commits and tags.",
