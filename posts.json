@@ -447,7 +447,7 @@
     {
         "content": "Find files newer than a specified reference file, e.g.:\n\n    $ find ~ -type f -name \"*.py\" -newer python_backup.tar",
         "id": 89,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Using `sed`, write only lines where a replacement has been made to a new file:\n\n    $ sed 's/search/replace/gw outfile.txt' infile.txt\n\nThe file `outfile.txt` will consist of only the edited lines, and the fill file will still be printed to standard out.",
