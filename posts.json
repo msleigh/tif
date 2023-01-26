@@ -362,7 +362,7 @@
     {
         "content": "With:\n\n     $ ssh -L 8000:127.0.0.1:8000 <user>@<host>\n\nyou can connect to a remote server <host> (as <user>) and map its port 8000 to the client port 8000. Connections to the local port 8000 are forwarded to the remote server's port 8000 over the SSH connection.\n\n(Provides a way for example to connect to a web server running on the remote server in a browser on the client.)",
         "id": 72,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Indent or unindent the current line in #vim with '>>' or '<<', respectively.\n\nIndent or unindent one or more lines selected in visual line mode (SHIFT-V) with '>' or '<' respectively.",
