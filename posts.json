@@ -732,7 +732,7 @@
     {
         "content": "#docker and #ansible solve two different problems and they can be used together: https://nickjanetakis.com/blog/docker-and-ansible-solve-2-different-problems-and-they-can-be-used-together",
         "id": 146,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Clear saved credentials from #git for a given user/host:\n\n    $ echo url=https://tif@github.com | git credential reject\n\nSee https://git-scm.com/docs/gitfaq#http-reset-credentials",
