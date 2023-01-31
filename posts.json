@@ -602,7 +602,7 @@
     {
         "content": "In #bash the environment variable `$RANDOM` stores a random number between 0 and 32,767, regenerated each time it is referenced.",
         "id": 120,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "The `trap` command in a #bash script intercepts signals sent to the process and performs the specified commands before exiting:\n\n    trap [commands] [signals]\n\nE.g. to clean up a temporary file on receipt of signal 1 (hangup) or 2 (interrupt)\n\n    trap 'rm file.tmp; exit' 1 2\n\nThe exit code of the `exit` statement will be that of the most recent command, in the case the `rm` command.",
