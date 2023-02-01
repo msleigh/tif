@@ -587,7 +587,7 @@
     {
         "content": "Use the `script` command in #bash to make a record of an interactive session. The default filename is 'typescript' which can be changed by passing an argument; `-a` appends to the existing file. Sessions can be recorded and played back.",
         "id": 117,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Convert between different physical units at the command line using the `units` command in #bash",
