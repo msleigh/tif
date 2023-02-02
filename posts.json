@@ -847,7 +847,7 @@
     {
         "content": "When sub-classing in #python, you can override a superclass's `__init__` method by defining your own `__init__` method in the subclass. You can then call the superclass's `__init__` method at will. E.g.:\n\nDefine a class `Sub` as a sub-class of `Super`:\n\n    class Sub(Super):\n        def __init__(self, ...):\n            # Do some stuff\n            Super.__init__(self, ...)\n            # More stuff\n",
         "id": 169,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Find files and apply a command to the results in #bash with `find`, e.g.:\n\n    find <path> <args> -exec <cmd> {} \\;\n\napplies `<cmd>` to the results; `{}` is  placeholder for the results and ';' (which needs to be escaped) indicates the command should be applied to each file.\n\nAlternatively:\n\n    find <path> <args> -exec <cmd> {} +\n\nindicates `<cmd>` is executed once on the results as a whole.",
