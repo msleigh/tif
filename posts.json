@@ -152,7 +152,7 @@
     {
         "content": "#python has a built-in string consisting of punctuation marks:\n\n    >>> import string\n    >>> string.punctuation\n    '!\"#$%&\\'()*+,-./:;<=>?@[\\\\]^_`{|}~'\n",
         "id": 30,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Save tmux sessions across system reboots with tmux-resurrect plugin: https://github.com/tmux-plugins/tmux-resurrect\n\nOnce installed, use <prefix> + <Ctrl>-<s> to save, <prefix> + <Ctrl>+<r> to restore.",
