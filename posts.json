@@ -867,7 +867,7 @@
     {
         "content": "In #vim use `I` (in normal mode) to start inserting text at the beginning of the current line.",
         "id": 173,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Find the set difference between two arrays in #python NumPy:\n\n    >>> import numpy as np\n    >>> array1 = [1, 2, 3]\n    >>> array2 = [3, 4]\n    >>> np.setdiff1d(array1, array2)\n    array([1, 2])\n\nIn #python `os.mkdir()` makes a directory (like #bash `mkdir`) and `os.makedirs()` recursively makes all intermediate directories in the provided path, and with `exist_ok=True` doesn't raise an error if any exist (like #bash `mkdir -p`).",
