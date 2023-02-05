@@ -142,7 +142,7 @@
     {
         "content": "Update a Tex Live or MacTex #latex installation with tlmgr:\n\nUpdate the tlmgr configuration tool itself:\n\n    $ sudo tlmgr update --self\n\nSee what would be updated (dry run):\n\n    $ tlmgr update --list\n\nUpdate:\n\n    $ sudo tlmgr update --all\n\nTo learn more:\n\n    $ man tlmgr\n",
         "id": 28,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "To switch on mouse scrolling in tmux:\n\n    set -g mouse on\n\n(The `-g` option means global; set for every session, window and pane).\n\nAdd to `~/.tmux.conf` to make permanent.",
