@@ -197,7 +197,7 @@
     {
         "content": "Bring an application to the foreground from the command line in #macOS using #applescript:\n\n    $ osascript -e \"tell application \\\"Safari\\\" to activate\"\n",
         "id": 39,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "In #macOS get URL currently open in Safari at command line (with #applescript):\n\n    $ osascript -e 'tell application \"Safari\" to set x to URL of current tab of window 1'\n\nSlightly simpler:\n\n    osascript -e 'tell application \"Safari\" to return URL of front document as string'\n\n(https://stackoverflow.com/questions/47510161/how-to-get-browser-active-tab-url-in-node-electron-app-on-linux-mac-windows)\n\nFor Vivaldi the syntax is slightly different, which doesn't work as-is for Safari:\n\n    osascript -e 'tell application \"Vivaldi\" to return URL of active tab of front window'\n\nThis slight mod does work for Safari as well as Vivaldi, but the URL of the first tab rather than the active tab is returned:\n\n    osascript -e 'tell application \"Safari\" to return URL of front tab of front window'\n\nThis returns all the tabs in a comma-separated list (Safari and Vivaldi):\n\n    osascript -e 'tell application \"Safari\" to return URL of tab of front window'\n\nNote the syntax valid for Vivaldi is also valid for Brave (and - though not tested here - presumably Google Chrome, Chromium, Opera, ...).",
