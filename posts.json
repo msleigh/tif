@@ -702,7 +702,7 @@
     {
         "content": "#python built-in functions and types that are always available to the interpreter: https://docs.python.org/3/library/functions.html",
         "id": 140,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Install #xcode command-line tools on #macOS with:\n\n    $ xcode-select --install\n\nTo the see the installation path:\n\n    $ xcode-select --print-path\n\n(or -p for short).",
