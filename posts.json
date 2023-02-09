@@ -797,7 +797,7 @@
     {
         "content": "Use `--simplify-by-decoration` with `git log` to show only commits that are labelled by a branch or tag in #git",
         "id": 159,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "List #git branches/tags with `git for-each-ref`. Alone it will list all local and remote branches and all tags:\n\n    git for-each-ref\n\nSpecify patterns to match to filter; e.g.:\n\n    git for-each-ref refs/heads\n\nwill list only local branches.\n\nModify the format with `--format`; you can use certain pre-defined field names in the format string, which are substituted; e.g.:\n\n    git for-each-ref --format='%(refname)'\n\nwill list only the (full) name of each reference.\n\nWhile this provides better output to loop over in a script than, say, `git tag` or `git branch`, you can even have `for-each-ref` create a script on the fly which can be executed. E.g.:\n\n    git for-each-ref --format='echo \"Branch = %(refname)\";' --shell\n\nPass this to `eval` to be executed.\n\n    eval $(git for-each-ref --format='echo \"Branch = %(refname)\";' --shell)",
