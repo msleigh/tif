@@ -742,7 +742,7 @@
     {
         "content": "Start the #apache web server on #macOS Monterey:\n\n    sudo launchctl load -w /System/Library/LaunchDaemons/org.apache.httpd.plist\n\nThe document root is in /Library/WebServer/Documents",
         "id": 148,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "#macOS defaults list: https://macos-defaults.com",
