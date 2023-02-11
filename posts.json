@@ -102,7 +102,7 @@
     {
         "content": "Unzip a zip file in #python:\n\n    import zipfile\n    with zipfile.ZipFile(path_to_zip_file, 'r') as zip_ref:\n        zip_ref.extractall(directory_to_extract_to)\n\nhttps://stackoverflow.com/a/3451150",
         "id": 20,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Specify a username when cloning a repository from #github (for example) using HTTPS:\n\n    $ git clone https://username@github.com/...\n",
