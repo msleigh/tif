@@ -262,7 +262,7 @@
     {
         "content": "Interactively rebase a sequence of commits in #git, starting with the root commit, up to a specified commit:\n\n    $ git rebase -i --root <commit>\n\n(If you rebase from the root commit onwards, e.g. `git rebase -i <root-commit>`, then the root commit itself is not included.",
         "id": 52,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "In #python, extract, from a list of dictionaries, only those elements (dictionaries) with a particular `(key, value)` pair using the `filter()` function.\n\nFor example, suppose you have a list of dictionaries called `data`, and you want to filter the dictionaries to extract only those with the key `id` equal to `selected_id`:\n\n    $ filtered_list = filter(lambda d: d['id'] == 'selected_id', data)\n",
