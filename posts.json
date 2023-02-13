@@ -67,7 +67,7 @@
     {
         "content": "Avoid looping over the output from `ls` in #bash:\n\n    # Do not do:\n    for file in $(ls *.py) ; do\n        ...\n    done\n\nSee http://mywiki.wooledge.org/BashPitfalls#for_f_in_.24.28ls_.2A.mp3.29",
         "id": 13,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "git rev-list lists commit objects in reverse chronological order. E.g.:\n\n    git rev-list main\n\nlists all commits reachable by following the 'parent' links from the given start point (the main branch in this case).\n\nAdding the --first-parent option makes #git follow only the first parent commit when it reaches a merge commit. This can give a better overview of the evolution of a topic branch, where merges into the topic branch have tended to be about adjusting to an updated upstream.\n\nhttps://git-scm.com/docs/git-rev-list",
