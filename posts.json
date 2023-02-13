@@ -352,7 +352,7 @@
     {
         "content": "#tmux cheat sheet: https://tmuxcheatsheet.com",
         "id": 70,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "At the command-line `cal` show a calendar view of the current month;\n`cal <year>` shows a calendar view for the full year specified (incl in the\nfuture), `cal <month> <year>` shows the specified month where <month> can be a\nnumber or name (e.g. 9 or sep).",
@@ -902,7 +902,7 @@
     {
         "content": "Reload an imported package in #python:\n\n    >>> from importlib import reload\n    >>> reload(package_name)\n",
         "id": 180,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Interactive #vim tutorial: https://www.openvim.com",
