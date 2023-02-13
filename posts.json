@@ -919,7 +919,8 @@
         "id": 183,
         "status": "unposted"
     },
-    {   "content": "Use the `:sort u` command in #vim to sort and de-duplicate the lines of a text file in place",
+    {
+        "content": "Use the `:sort u` command in #vim to sort and de-duplicate the lines of a text file in place",
         "id": 184,
         "status": "unposted"
     }
