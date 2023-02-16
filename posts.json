@@ -928,5 +928,25 @@
         "content": "Edit a remote file in #vim:\n\n    $ vim scp://[user@]host//path/to/file.txt\n",
         "id": 185,
         "status": "unposted"
+    },
+    {
+        "content": "Always show whitespace changes in `git diff`:\n\n    $ git config diff.wsErrorHighlight all\n\n(Applies to current repository, use `--global` to apply to all.)",
+        "id": 186,
+        "status": "unposted"
+    },
+    {
+        "content": "Fix missing `pip` in #python env:\n\n    $ python -m ensurepip --default-pip\n",
+        "id": 187,
+        "status": "unposted"
+    },
+    {
+        "content": "Install local package in #python env with `pip` editable mode:\n\n    $ pip install -e <path-to-package>\n",
+        "id": 188,
+        "status": "unposted"
+    },
+    {
+        "content": "Delete <pattern> everywhere from a text file in #vim:\n\n    :%s/<pattern>//gc\n",
+        "id": 189,
+        "status": "unposted"
     }
 ]
