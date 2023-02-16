@@ -317,7 +317,7 @@
     {
         "content": "Show port numbers for applications on #macOS:\n\n    $ sudo lsof -i -P\n\nThe lsof lists open files, including network files. The -i option limits to listing only Internet files, -P prevents port numbers being converted to names",
         "id": 63,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Before executing any command, #bash performs 'pathname expansion' on it. The characters '*', '?' and '[' are special - any token in the command that contains them is treated as a 'pattern'.\n\nEach pattern in the command is replaced with an alphabetically sorted list of filenames that match the pattern according to specific pattern matching rules. These are:\n\nThe * character matches any string (incl. the null string).\nThe ? character matches any single character\n[...] matches any one of the enclosed characters; a range of characters can also be specified\n\nE.g.:\n`ls [abc]*` lists all files starting with 'a', 'b' or 'c'\n\n`ls *[xyz]` lists all files ending with 'x', 'y' or 'z'\n\n`ls 0???f` lists all files with 5-letter names starting with '0' and ending with 'f'.\n\n`ls [a-z]*` specified a range, so lists all files starting with a lower-case letter.\n\n`ls *[0-9]` lists files ending with a digit.",
