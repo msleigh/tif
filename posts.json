@@ -717,7 +717,7 @@
     {
         "content": "#bash shell arithmetic: https://www.gnu.org/software/bash/manual/html_node/Shell-Arithmetic.html",
         "id": 143,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Rebase instead of merge when doing #git pull:\n\n    $ git pull --rebase=true\n",
