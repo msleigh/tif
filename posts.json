@@ -162,7 +162,7 @@
     {
         "content": "Recover a #vim file (e.g. after a crash) by starting Vim on the file with the -r option:\n\n    $ vim -r README.md\n",
         "id": 32,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "To move ahead N characters in #vim, use `N<space>` in normal mode.\n\nhttps://vi.stackexchange.com/a/14434",
