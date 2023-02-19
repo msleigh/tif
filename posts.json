@@ -497,7 +497,7 @@
     {
         "content": "The `set` builtin command in #bash will set the positional parameters $1, $2, ... to any arguments given to the `set` command:\n\n    > set \"Hello\" \"world\"\n    > echo $1\n    Hello\n    > echo $2\n    world\n    > echo $#\n    2\n\nYou can use this to count the words that a command produces:\n\n    > set $(date)\n    > echo $#\n    6\n",
         "id": 99,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Add a global .gitignore file in #git:\n\n    $ git config --global core.excludesfile <path-to-file>\n\nThis will be respected by all Git repositories on your system.\n\nNote however that unlike with a local .gitignore checked into the repository, other users who clone your project will not have this and therefore will potentially see different results from e.g. `git status`.",
