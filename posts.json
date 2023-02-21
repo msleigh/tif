@@ -267,7 +267,7 @@
     {
         "content": "In #python, extract, from a list of dictionaries, only those elements (dictionaries) with a particular `(key, value)` pair using the `filter()` function.\n\nFor example, suppose you have a list of dictionaries called `data`, and you want to filter the dictionaries to extract only those with the key `id` equal to `selected_id`:\n\n    $ filtered_list = filter(lambda d: d['id'] == 'selected_id', data)\n",
         "id": 53,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Vim allows the insertion of characters that aren't on the keyboard via 'digraphs'. These are two-character codes that represent a single character, e.g. 'Co' represents the copyright symbol \u00a9. To insert a symbol using a digraph, type CTRL-K, then the two characters.\n\nType `:help digraphs` for more information, and `:digraphs` for a list. Ensure Unicode support is turned on to get the full set: `:set encoding=utf-8`.",
