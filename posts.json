@@ -632,7 +632,7 @@
     {
         "content": "With gzipped file use `gzcat`, `zforce`, `zmore`, to cat, force a '.gz' extension, and page the file whilst compressed.",
         "id": 126,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Using grep with `-w` option performs a word-only search:\n\n    $ grep -w git ./text.md\n\nmatches 'git', '.git', 'git-branch' '#git', etc., but not '.gitignore', 'gitk', 'github', 'boggit', etc.",
