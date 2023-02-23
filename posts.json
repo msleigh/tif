@@ -187,7 +187,7 @@
     {
         "content": "Why can I log into my account with a misspelled password: https://security.stackexchange.com/questions/214814/why-can-i-log-in-to-my-facebook-account-with-a-misspelled-email-password",
         "id": 37,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Get a trimmmed mean of a data set, i.e. the mean of values within a specified range:\n\n    from scipy import stats\nstats.tmean(my_data, limits = [-1, 1])\n",
