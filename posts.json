@@ -597,7 +597,7 @@
     {
         "content": "In #bash the `for` command has a default argument `in \"$@\"`, so will by default loop over the positional parameters; i.e.:\n\n    for x ; do\n       echo $x\n    done\n\nis equivalent to:\n\n    for x in \"$@\" ; do\n        echo $x\n    done",
         "id": 119,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "In #bash the environment variable `$RANDOM` stores a random number between 0 and 32,767, regenerated each time it is referenced.",
