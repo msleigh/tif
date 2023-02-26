@@ -432,7 +432,7 @@
     {
         "content": "In #vim, ctrl-g diplays the status (filename, number of lines, position in file as %, ...)",
         "id": 86,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Singularity Containers for HPC & Deep Learning: https://www.nextplatform.com/2018/03/19/singularity-containers-for-hpc-deep-learning/",
