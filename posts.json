@@ -507,7 +507,7 @@
     {
         "content": "The grep command family: `fgrep` is faster at the expense of only being able to handle fixed strings (not regular expressions), and `egrep` can handle extended regular expressions. `zgrep`, `zfgrep` and `zegrep` are equivalents that can also handle compressed or gzipped data.",
         "id": 101,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "In #bash the `for` command has a default argument `in \"$@\"`, so will by default loop over the positional parameters; i.e.:\n\n    for x ; do\n       echo $x\n    done\n\nis equivalent to:\n\n    for x in \"$@\" ; do\n        echo $x\n    done\n",
