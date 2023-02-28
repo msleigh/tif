@@ -332,7 +332,7 @@
     {
         "content": "Use '\\in' to produce the \u2208 symbol in #latex",
         "id": 66,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "List #docker containers:\n\n    docker ps -a\n\n(without -a lists just running containers)",
