@@ -947,6 +947,6 @@
     {
         "content": "Delete <pattern> everywhere from a text file in #vim:\n\n    :%s/<pattern>//gc\n",
         "id": 189,
-        "status": "unposted"
+        "status": "posted"
     }
 ]
