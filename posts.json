@@ -827,7 +827,7 @@
     {
         "content": "The `zip` function in #python is (almost) its own inverse. Use it to zip two lists:\n\n    >>> k = ['a','b']\n    >>> v = [1,2]\n    >>> x=list(zip(k,v))\n    >>> x\n    [('a', 1), ('b', 2)]\n\n`zip()` returns an iterator so for convenience here we store it as a list.\n\nThen unzip it again using `zip()` a second time, with the special `*` unpacking operator:\n\n    >>> list(zip(*x))\n    [('a', 'b'), (1, 2)]",
         "id": 165,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "The #python `os.path.split()` function splits a path into a `(head, tail)` pair where `tail` is the last component of the pathname (what you would get from `basename`) and the `head` is everything up to that (what you would get from `dirname`).",
