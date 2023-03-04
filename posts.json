@@ -927,7 +927,7 @@
     {
         "content": "Edit a remote file in #vim:\n\n    $ vim scp://[user@]host//path/to/file.txt\n",
         "id": 185,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Always show whitespace changes in `git diff`:\n\n    $ git config diff.wsErrorHighlight all\n\n(Applies to current repository, use `--global` to apply to all.)",
