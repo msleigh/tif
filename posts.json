@@ -527,7 +527,7 @@
     {
         "content": "Map data into ranges/bins in #python #numpy:\n\n    import numpy as np\n    bins = [10, 20, 30]  # Specify 3 bin boundaries to get 4 bins\n    ddf = np.digitize(df['column'], bin, right = True)\n\nResult has the same shape as input data and specifies bin number for each of the original elements.\n\nUse quantiles to set the bin ranges:\n\n    bins = np.quantile(df, [0.25, 0.5, 0.75])\n    ddf = np.digitize(...",
         "id": 105,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Print file up to the first line matching a search pattern:\n\n    $ sed '/<pattern>/q' file.txt\n\n(The 'q' is for 'quit'). E.g. count the lines up to first mention of #python:\n\n    $ sed '/[Pp]ython/q' file.txt | wc -l\n",
