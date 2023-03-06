@@ -427,7 +427,7 @@
     {
         "content": "With the `tr` command in #bash, use the `-c` option to get the complement of the first character set. E.g. to delete all character _except_ letters and space:\n\n    tr -c '[:alpha:] ' <input.txt",
         "id": 85,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "In #vim, ctrl-g diplays the status (filename, number of lines, position in file as %, ...)",
