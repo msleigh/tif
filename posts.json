@@ -963,5 +963,10 @@
         "content": "To require an argument in a #bash function use `${arg:?error_msg}`:\n\n    func() {\n        local arg=\"${1:?\"Argument required\"}\"\n        echo \"${arg}\"\n    }\n",
         "id": 192,
         "status": "unposted"
+    },
+    {
+        "content": "In #vim resize all split windows to have equal dimensions using `<ctrl>-w` then `=`.",
+        "id": 193,
+        "status": "unposted"
     }
 ]
