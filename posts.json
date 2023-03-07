@@ -948,5 +948,15 @@
         "content": "Delete <pattern> everywhere from a text file in #vim:\n\n    :%s/<pattern>//gc\n",
         "id": 189,
         "status": "posted"
+    },
+    {
+        "content": "Show dates in Git's reflog:\n\n    $ git reflog --date=iso\n",
+        "id": 190,
+        "status": "unposted"
+    },
+    {
+        "content": "List the available `find_package` and utility modules in CMake:\n\n    $ cmake --help-module-list\n",
+        "id": 191,
+        "status": "unposted"
     }
 ]
