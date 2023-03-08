@@ -782,7 +782,7 @@
     {
         "content": "In #git, check the validity of objects in the database with:\n\n    $ git fsck\n\nE.g. to check for dangling commits and tags.",
         "id": 156,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Using templates to write better #git commit messages: https://gist.github.com/lisawolderiksen/a7b99d94c92c6671181611be1641c733",
