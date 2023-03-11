@@ -562,7 +562,7 @@
     {
         "content": "The Bash Hash Table\n\nhttps://www.informit.com/articles/article.aspx?p=169504&seqNum=8",
         "id": 112,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "In #bash the `hash` command displays a list of the full paths to the commands used so far in the shell, and the number of times used (hits).",
