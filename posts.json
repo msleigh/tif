@@ -622,7 +622,7 @@
     {
         "content": "The `rev` command in #bash reverses the order of characters in the file given as an argument (or stdin)",
         "id": 124,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Redirect output from print statements in #python:\n\n    import sys\n    sys.stdout = open('output.log', 'a')\n\nSubsequent print statements will append text to the specified file, using the `sys.stdout.write()` method. You can redirect `sys.stdout` to any object that has a `write()` method.\n\nIf you want to restore the original value of `sys.stdout`, you can save it before changing it and then restore it afterwards. However `print` allows this on the fly:\n\n    log = ('output.log', 'a')\n    print(\"Hello, world!\", file=log)",
