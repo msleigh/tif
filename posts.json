@@ -207,7 +207,7 @@
     {
         "content": "Open a new tab from the command line on #macOS, using #applescript:\n\n    URL='https://botsin.space/@tif' # For example\n    osascript -e \"tell application \\\"Brave Browser\\\" to open location \\\"${URL}\\\"\"\n\n(Works for \"Safari\", \"Vivaldi\", i\"Firefox\", etc., in place of \"Brave Browser\".)",
         "id": 41,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Jump to the matching bracket in #vim with '%'",
