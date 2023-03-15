@@ -477,7 +477,7 @@
     {
         "content": "When using `ex`-style subsitute command (e.g. in `sed` or `vim`), the '&' symbol represent the matched pattern. E.g.:\n\n    $ echo '$VARIABLE' | sed 's/VARIABLE/{&}/'\n\ngives `${VARIABLE}`.\n\nThis is most useful if there are mutliple matches, e.g.\n\n    $ sed 's/ection[1-9]/ubs&/g' <paper.tex\n\nwould turn 'Section1' into 'Subsection1', 'Section2' into 'Subsection2', ...",
         "id": 95,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Grep options:\n\n- `-n` causes the line numbers of the matching lines to also be printed.\n- `-h` suppresses the filename from being printed when grepping multiple files.\n- `-l` causes _only_ the filenames where matches were found to be printed.\n- `-c` prints the count of matched lines (per file).\n- `-s` suppresses error messages (e.g. if a file being grepped doesn't exist or have read permission).\n",
