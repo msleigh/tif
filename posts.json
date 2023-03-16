@@ -482,7 +482,7 @@
     {
         "content": "Grep options:\n\n- `-n` causes the line numbers of the matching lines to also be printed.\n- `-h` suppresses the filename from being printed when grepping multiple files.\n- `-l` causes _only_ the filenames where matches were found to be printed.\n- `-c` prints the count of matched lines (per file).\n- `-s` suppresses error messages (e.g. if a file being grepped doesn't exist or have read permission).\n",
         "id": 96,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "The `-ok` expression is an alternative to `-exec` in the `find` command, but which stops and asks for confirmation before executing the given command, e.g.:\n\n    $ find ~ -name .DS_Store -ok rm {} \\;\n\nThe syntax is otherwise the same as for `-exec`. Type 'y' to execute the command, or anything else to move on to the next result.",
