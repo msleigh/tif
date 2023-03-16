@@ -968,5 +968,25 @@
         "content": "In #vim resize all split windows to have equal dimensions using `<ctrl>-w` then `=`.",
         "id": 193,
         "status": "unposted"
+    },
+    {
+        "content": "Strikethrough text in #markdown: `~~strikethrough text~~`.",
+        "id": 194,
+        "status": "unposted"
+    },
+    {
+        "content": "Add a title attribute to a link in #markdown: `[Display text](https://example.com/link \"Title attribute\")`.",
+        "id": 195,
+        "status": "unposted"
+    },
+    {
+        "content": "Add inline image to #markdown:\n\n    ![Alt text](/path/or/url/to/image.png \"Optional title attribute\")\n",
+        "id": 196,
+        "status": "unposted"
+    },
+    {
+        "content": "Non-greedy quantifier isn't available in `sed` as it is not implemented in basic or extended Posix/GNU regex. Use instead:\n\n    $ perl -pi -e 's/pattern/replace/'\n",
+        "id": 197,
+        "status": "unposted"
     }
 ]
