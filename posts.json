@@ -897,7 +897,7 @@
     {
         "content": "Reload a file in #vim (if it has changes externally) with `:e`. Use `:e!` to discard any local changes.",
         "id": 179,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Reload an imported package in #python:\n\n    >>> from importlib import reload\n    >>> reload(package_name)\n",
