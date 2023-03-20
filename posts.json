@@ -552,7 +552,7 @@
     {
         "content": "A #python collection object (such as a list) can contain a reference to itself:\n\n    >>> my_list = ['elem']\n    >>> my_list.append(my_list)\n\nPython prints '[...]' when it detects this kind of _cyclic object_:\n\n    >>> my_list\n    ['elem', [...]]\n",
         "id": 110,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "The `sdiff` command in #bash shows a side-by-side diff of two files.",
