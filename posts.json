@@ -312,7 +312,7 @@
     {
         "content": "Rebase the last n commits onto another branch in #git with:\n\n    $ git rebase -i HEAD~<n> --onto <target-branch>\n\nChanges are applied to your current branch (not <target-branch>), so to actually graft the last n commits from your current branch onto a target branch:\n\n    $ git switch -c tmp\n    $ git rebase -i HEAD~<n> --onto <target-branch>\n    $ git switch <target-branch>\n    $ git merge --ff-only tmp\n    $ git branch -d tmp\n",
         "id": 62,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Show port numbers for applications on #macOS:\n\n    $ sudo lsof -i -P\n\nThe lsof lists open files, including network files. The -i option limits to listing only Internet files, -P prevents port numbers being converted to names",
