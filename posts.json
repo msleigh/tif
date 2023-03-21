@@ -1008,5 +1008,30 @@
         "content": "Recursively delete a directory and its contents in #python with:\n\n    shutil.rmtree(path)\n\n(where `path` must be a directory not a symlink).",
         "id": 201,
         "status": "unposted"
+    },
+    {
+        "content": "Today's date in YYYY-mm-dd format in #python:\n\n     >>> from datetime import date\n     >>> date.today().strftime('%Y-%m-%d')\n    '2023-03-21'\n",
+        "id": 202,
+        "status": "unposted"
+    },
+    {
+        "content": "Iterate over a range of dates in #python: https://stackoverflow.com/a/1060330",
+        "id": 203,
+        "status": "unposted"
+    },
+    {
+        "content": "Delete <pattern> from <string> in #bash:\n\n    $ VAR=\"<string>\"\n    $ NEW=\"${VAR//\"<pattern\"}\"\n",
+        "id": 204,
+        "status": "unposted"
+    },
+    {
+        "content": "List only the names of files returned by `find` command in #bash:\n\n    find <path> -name <pattern> -printf \"%f\\n\"\n\n(Alternative to `find <path> -name <pattern> | xargs -n1 basename`.)",
+        "id": 205,
+        "status": "unposted"
+    },
+    {
+        "content": "Strict GNU compiler settings for debugging/code quality:\n\n    -Wpedantic -Wall -Wextra -Wformat=2 -Wshadow\n",
+        "id": 206,
+        "status": "unposted"
     }
 ]
