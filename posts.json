@@ -993,5 +993,20 @@
         "content": "Add a column to a Pandas dataframe which is the result of some operation applied to the existing columns:\n\n    df['new col'] = df.apply(my_function, axis=1)\n\nThe function `my_function(row)` accepts a Series object (a row of the original dataframe) and performs the desired operation on it.",
         "id": 198,
         "status": "unposted"
+    },
+    {
+        "content": "Show Git object data with `git cat-file -p` (for pretty):\n\n    $ g cat-file -p df68b79e68c113cb64eab5fab8b299f84ddfe2f9\n    tree c4bcb885f28617044d691b51c791e1ff22ead7e6\n    parent 0835c3b41d18a5d928341c9e5f2eb0b95c7bfb4f\n    author tif <tif@users.noreply.github.com> 1678970735 +0000\n    committer tif <tif@users.noreply.github.com> 1678970735 +0000\n    \n    Updates list after posting\n",
+        "id": 199,
+        "status": "unposted"
+    },
+    {
+        "content": "Show the type of a Git object with `git cat-file -t`:\n\n    $ g cat-file -t df68b79e68c113cb64eab5fab8b299f84ddfe2f9\n    commit\n\n    $ g cat-file -t main\n    commit\n",
+        "id": 200,
+        "status": "unposted"
+    },
+    {
+        "content": "Recursively delete a directory and its contents in #python with:\n\n    shutil.rmtree(path)\n\n(where `path` must be a directory not a symlink).",
+        "id": 201,
+        "status": "unposted"
     }
 ]
