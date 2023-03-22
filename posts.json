@@ -62,7 +62,7 @@
     {
         "content": "Linux Documentation Project Advanced Bash Scripting Guide: https://tldp.org/LDP/abs/html/index.html",
         "id": 12,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Avoid looping over the output from `ls` in #bash:\n\n    # Do not do:\n    for file in $(ls *.py) ; do\n        ...\n    done\n\nSee http://mywiki.wooledge.org/BashPitfalls#for_f_in_.24.28ls_.2A.mp3.29",
