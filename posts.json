@@ -1027,7 +1027,7 @@
     {
         "content": "List only the names of files returned by `find` command in #bash:\n\n    find <path> -name <pattern> -printf \"%f\\n\"\n\n(Alternative to `find <path> -name <pattern> | xargs -n1 basename`.)",
         "id": 205,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Strict GNU compiler settings for debugging/code quality:\n\n    -Wpedantic -Wall -Wextra -Wformat=2 -Wshadow\n",
