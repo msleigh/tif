@@ -372,7 +372,7 @@
     {
         "content": "Run a #python web server:\n\n    $ python3 -m http.server 8000\n\nand connect at 'http://localhost:8000'.",
         "id": 74,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Local variables in #bash.\n\nWhen used in a function, `declare` makes each name local, as with the `local` command, unless the `-g` option is used.\n\nSo:\n\n    declare <var>\n    local <var>\n\nboth create a local variable `<var>`, if used inside a function (`declare` can be used outside functions but `local` cannot.). `local` accepts any of the options accepted by `declare`.",
