@@ -302,7 +302,7 @@
     {
         "content": "If you use:\n\n    $ tmux new -A -s <session-name>\n\nwhen starting and/or attaching to a tmux session, it will create `<session-name>` if it doesn't exist, and attach to it if it does.",
         "id": 60,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Set up a local web server on #macOS: https://discussions.apple.com/docs/DOC-250001766",
