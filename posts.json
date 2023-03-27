@@ -452,7 +452,7 @@
     {
         "content": "Using `sed`, write only lines where a replacement has been made to a new file:\n\n    $ sed 's/search/replace/gw outfile.txt' infile.txt\n\nThe file `outfile.txt` will consist of only the edited lines, and the fill file will still be printed to standard out.",
         "id": 90,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Set yourself a reminder at the command line:\n\n    $ echo \"echo Call Mary-Ann | write ${USER}\" | at now +5 minutes\n\nSee:\n\n    $ man at\n\nfor more info on controlling the timing.\n\nMake it more prominent:\n\n    $ echo \"cowsay Put the cat out | write ${USER}\" | at now +5 minutes\n    $ echo \"figlet Take a break | write ${USER}\" | at 14:00\n\nWrite a function:\n\n    function remindme() {\n        echo \"cowsay $1 | write ${USER}\" | at \"${@:2}\"\n    }\n\nthen:\n\n    $ remindme \"Get back to work!\" now +30 minutes",
