@@ -967,7 +967,7 @@
     {
         "content": "In #vim resize all split windows to have equal dimensions using `<ctrl>-w` then `=`.",
         "id": 193,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Strikethrough text in #markdown: `~~strikethrough text~~`.",
