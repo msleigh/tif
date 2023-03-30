@@ -932,7 +932,7 @@
     {
         "content": "Always show whitespace changes in `git diff`:\n\n    $ git config diff.wsErrorHighlight all\n\n(Applies to current repository, use `--global` to apply to all.)",
         "id": 186,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Fix missing `pip` in #python env:\n\n    $ python -m ensurepip --default-pip\n",
