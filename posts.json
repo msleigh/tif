@@ -712,7 +712,7 @@
     {
         "content": "Create an interactive Ubuntu #docker container:\n\n    $ docker run -it --rm ubuntu bash\n\n(`-it` makes the container interactive and `--rm` cleans up after exit)",
         "id": 142,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "#bash shell arithmetic: https://www.gnu.org/software/bash/manual/html_node/Shell-Arithmetic.html",
