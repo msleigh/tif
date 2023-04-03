@@ -112,7 +112,7 @@
     {
         "content": "Manage abbreviations in #latex (e.g. automatically spell them out the first time they're used, compile a list of abbreviations automatically) using the `acronym` package. Run `texdoc acronym` for info.",
         "id": 22,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "The binomial distribution\n\nThe parameter k is an integer from 0 to n representing the number of successful trials out of n trials in total. The mean is np, and the variance is np(1-p).\n[binomial_distribution_equation.png]",
