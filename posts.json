@@ -977,7 +977,7 @@
     {
         "content": "Add a title attribute to a link in #markdown: `[Display text](https://example.com/link \"Title attribute\")`.",
         "id": 195,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Add inline image to #markdown:\n\n    ![Alt text](/path/or/url/to/image.png \"Optional title attribute\")\n",
