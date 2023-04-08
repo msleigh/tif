@@ -972,7 +972,7 @@
     {
         "content": "Strikethrough text in #markdown: `~~strikethrough text~~`.",
         "id": 194,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Add a title attribute to a link in #markdown: `[Display text](https://example.com/link \"Title attribute\")`.",
