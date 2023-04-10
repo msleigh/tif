@@ -212,7 +212,7 @@
     {
         "content": "Jump to the matching bracket in #vim with '%'",
         "id": 42,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Get image size in pixels at the command line using `file`:\n\n    file my-image.png\n\n(Works for GIF, JPEG also.)",
