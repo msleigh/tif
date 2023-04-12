@@ -942,7 +942,7 @@
     {
         "content": "Install local package in #python env with `pip` editable mode:\n\n    $ pip install -e <path-to-package>\n",
         "id": 188,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Delete <pattern> everywhere from a text file in #vim:\n\n    :%s/<pattern>//gc\n",
