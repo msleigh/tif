@@ -287,7 +287,7 @@
     {
         "content": "Type 'gg' to go to the first line in a file in #vim (':0' also works, since ':n' takes you to the nth line.)",
         "id": 57,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Fix indentation in all lines of a file below the cursor in #vim with `=G`.",
