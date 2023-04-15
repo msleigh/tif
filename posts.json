@@ -412,7 +412,7 @@
     {
         "content": "Copy a file converting it to all-lower-case:\n\n    $ dd if=input.txt of=output.txt conv=lcase\n\n(or `tr 'A-Z' 'a-z' <input.txt >output.txt`).\n\nUse `dd ... conv=ucase` to convert all to upper case.",
         "id": 82,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Find all broken links:\n\n    $ find . -xtype l\n",
