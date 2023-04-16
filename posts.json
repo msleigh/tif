@@ -337,7 +337,7 @@
     {
         "content": "List #docker containers:\n\n    docker ps -a\n\n(without -a lists just running containers)",
         "id": 67,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Keep a process running in the background and allow it to continue running if\nthe terminal session is closed or if you log out from the server:\n\n    $ nohup <command...> &\n\nBy default the `nohup` command sends the output to nohup.out.",
