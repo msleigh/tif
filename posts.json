@@ -1033,5 +1033,55 @@
         "content": "Strict GNU compiler settings for debugging/code quality:\n\n    -Wpedantic -Wall -Wextra -Wformat=2 -Wshadow\n",
         "id": 206,
         "status": "unposted"
+    },
+    {
+        "content": "Search for string in specified trees of Git repository:\n\n    git grep -in 'todo' release-condidate develop -- *.py\n\nwhere `release-candidate` and `develop` are refs to search in.",
+        "id": 207,
+        "status": "unposted"
+    },
+    {
+        "content": "Search for absent string in specified trees of Git repository:\n\n    git grep -iLv 'copyright' 1.0.0\n\nwhere `1.0.0` is a refs to search.",
+        "id": 208,
+        "status": "unposted"
+    },
+    {
+        "content": "Globs in bash.\\n\\nAs well as `*` matching any text (or none), `?",
+        "id": 209,
+        "status": "unposted"
+    },
+    {
+        "content": "Globs in bash.\\n\\nAs well as `*` matching any text (or none), `?` matches any single character, `[charset]` matches any single character in `charset`, and `[[:class:]]` matches any single character in the named class. E.g.:\n\n    ls ~/.vim/swaps/*.sw?\n    find . -name \"calc[0-9].out\"\n    ls [[:upper:]]*\n\nOther classes include `alnum`, `alpha`, `digit`, `lower`, `punct`, ...",
+        "id": 210,
+        "status": "unposted"
+    },
+    {
+        "content": "List the #bash shell options that are currently set with `shopt -s`, or that are unset with `-u`.",
+        "id": 211,
+        "status": "unposted"
+    },
+    {
+        "content": "Repeat the last command in #bash with `!!`; print without executing with `!!:p`.",
+        "id": 212,
+        "status": "unposted"
+    },
+    {
+        "content": "In #bash, repeat the most recent command beginning with `<string>` by entering `!<string>`. Only print the command, without executing it, by adding `:p`; i.e. enter `!<string>:p`.",
+        "id": 213,
+        "status": "unposted"
+    },
+    {
+        "content": "Insert the last token from the previous #bash command into the current command with `!$`. E.g.:\n\n    mkdir -p ./long/path/to/new/folder\n    cd !$\n",
+        "id": 214,
+        "status": "unposted"
+    },
+    {
+        "content": "Insert all but the first token from the previous #bash command into the current command with `!*`. E.g.:\n\n    touch filea fileb filec\n    chmod 660 !*\n",
+        "id": 215,
+        "status": "unposted"
+    },
+    {
+        "content": "Search/replace in the previous #bash command with `^<pattern>^<replacement>`:\n\n    tocuh filea\n    ^cu^uc\n\nor:\n\n    ln -s /long/path/to/file1 ./newfile1\n    ^1^2\n    ^2^3\n",
+        "id": 216,
+        "status": "unposted"
     }
 ]
