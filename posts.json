@@ -1083,5 +1083,30 @@
         "content": "Search/replace in the previous #bash command with `^<pattern>^<replacement>`:\n\n    tocuh filea\n    ^cu^uc\n\nor:\n\n    ln -s /long/path/to/file1 ./newfile1\n    ^1^2\n    ^2^3\n",
         "id": 216,
         "status": "unposted"
+    },
+    {
+        "content": "The `.split()` method of a string object in #python splits on whitespace by default",
+        "id": 217,
+        "status": "unposted"
+    },
+    {
+        "content": "In #python, get a histogram of how many times each unique item appears in a list using the `Counter` class:\n\n     >>> from collections import Counter\n     >>> Counter(['r', 'g', 'g', 'b', 'b', 'b'])\n     Counter({'b': 3, 'g': 2, 'r': 1})\n",
+        "id": 218,
+        "status": "unposted"
+    },
+    {
+        "content": "With the #python `re` module for regular expressions, store the matched pattern in a named variable using the `(?P...)` notation. E.g. to match a commit hash: `(?P<hash>[0-9a-z]{40})` stores the matching 40-character commit hash in a variable called `hash`.",
+        "id": 219,
+        "status": "unposted"
+    },
+    {
+        "content": "Multiple replacements can be chained in a single `sed` command; e.g.:\n\n    $ echo xy | sed 's/x/a/; s/y/b/'\n    ab\n",
+        "id": 220,
+        "status": "unposted"
+    },
+    {
+        "content": "Replace multiple matches with a given replacement string, using `sed`:\n\n     $ echo xy | sed -E 's/(x|y)/a/g'\n     aa\n",
+        "id": 221,
+        "status": "unposted"
     }
 ]
