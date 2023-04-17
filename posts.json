@@ -127,7 +127,7 @@
     {
         "content": "Set theory at the command line: https://www.johndcook.com/blog/2019/11/24/comm-set-theory",
         "id": 25,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "The kurtosis of a random variable X is the fourth standard moment:\n\n    \u03ba = \ud835\ude74[((\ud835\ude87 - \u03bc)/\u03c3)\u2074]\n\nwhere \u03bc is the mean and \u03c3 is the standard deviation.\n\nThe normal distribution has a kurtosis of \u03ba = 3.\n[kurtosis_equation.png]",
