@@ -1077,7 +1077,7 @@
     {
         "content": "Insert all but the first token from the previous #bash command into the current command with `!*`. E.g.:\n\n    touch filea fileb filec\n    chmod 660 !*\n",
         "id": 215,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Search/replace in the previous #bash command with `^<pattern>^<replacement>`:\n\n    tocuh filea\n    ^cu^uc\n\nor:\n\n    ln -s /long/path/to/file1 ./newfile1\n    ^1^2\n    ^2^3\n",
