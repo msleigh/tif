@@ -97,7 +97,7 @@
     {
         "content": "Fully compile a #latex document in one step (running the LaTeX compiler the required number of times automatically) using `latexmk`:\n\n    $ latexmk -pdf document.tex\n",
         "id": 19,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Unzip a zip file in #python:\n\n    import zipfile\n    with zipfile.ZipFile(path_to_zip_file, 'r') as zip_ref:\n        zip_ref.extractall(directory_to_extract_to)\n\nhttps://stackoverflow.com/a/3451150",
