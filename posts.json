@@ -792,7 +792,7 @@
     {
         "content": "Check if a TCP port is open on #macOS:\n\n    $ nc -zv <ip-address> <port>",
         "id": 158,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Use `--simplify-by-decoration` with `git log` to show only commits that are labelled by a branch or tag in #git",
