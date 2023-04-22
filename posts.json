@@ -852,7 +852,7 @@
     {
         "content": "Find files and apply a command to the results in #bash with `find`, e.g.:\n\n    find <path> <args> -exec <cmd> {} \\;\n\napplies `<cmd>` to the results; `{}` is  placeholder for the results and ';' (which needs to be escaped) indicates the command should be applied to each file.\n\nAlternatively:\n\n    find <path> <args> -exec <cmd> {} +\n\nindicates `<cmd>` is executed once on the results as a whole.",
         "id": 170,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "#vim tip: use 'o' or 'O' (in normal mode) to add a new line after or before the current one, respectively (leaving you in insert mode)",
