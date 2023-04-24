@@ -1092,7 +1092,7 @@
     {
         "content": "In #python, get a histogram of how many times each unique item appears in a list using the `Counter` class:\n\n     >>> from collections import Counter\n     >>> Counter(['r', 'g', 'g', 'b', 'b', 'b'])\n     Counter({'b': 3, 'g': 2, 'r': 1})\n",
         "id": 218,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "With the #python `re` module for regular expressions, store the matched pattern in a named variable using the `(?P...)` notation. E.g. to match a commit hash: `(?P<hash>[0-9a-z]{40})` stores the matching 40-character commit hash in a variable called `hash`.",
