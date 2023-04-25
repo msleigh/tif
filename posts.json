@@ -1102,7 +1102,7 @@
     {
         "content": "Multiple replacements can be chained in a single `sed` command; e.g.:\n\n    $ echo xy | sed 's/x/a/; s/y/b/'\n    ab\n",
         "id": 220,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Replace multiple matches with a given replacement string, using `sed`:\n\n     $ echo xy | sed -E 's/(x|y)/a/g'\n     aa\n",
