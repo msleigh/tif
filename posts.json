@@ -842,7 +842,7 @@
     {
         "content": "On #macOS use `diskutil list` to see all local disks and their partitions. Add `internal`, `external`, `physical` or `virtual` to see only those types of disk, and add `-plist` to get machine-readable XML output.",
         "id": 168,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "When sub-classing in #python, you can override a superclass's `__init__` method by defining your own `__init__` method in the subclass. You can then call the superclass's `__init__` method at will. E.g.:\n\nDefine a class `Sub` as a sub-class of `Super`:\n\n    class Sub(Super):\n        def __init__(self, ...):\n            # Do some stuff\n            Super.__init__(self, ...)\n            # More stuff\n",
