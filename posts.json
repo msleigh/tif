@@ -387,7 +387,7 @@
     {
         "content": "Stop a #docker container with:\n\n    docker stop <container-id>\n\nand remove it with:\n\n    docker rm <container-id>",
         "id": 77,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Vim maintains a 'jumplist', a list of cursor positions.",
