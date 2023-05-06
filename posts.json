@@ -807,7 +807,7 @@
     {
         "content": "In #vim use 'A' (in normal mode) to start appending to the end of the current line",
         "id": 161,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "In #bash display a file with line endings:\n\n    $ cat -e <filename>\n\nUnix line endings are displayed as as `$` and Windows line endings as `^M$`. The `-t` option will show tabs as `^I`, and `-A` will show both line endings and tabs.",
