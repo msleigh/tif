@@ -1142,6 +1142,6 @@
     {
         "content": "Initialise and fetch submodules in an already-cloned #git project:\n\n    git submodule update --init [--recursive]\n",
         "id": 229,
-        "status": "unposted"
+        "status": "posted"
     }
 ]
