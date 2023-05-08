@@ -1097,7 +1097,7 @@
     {
         "content": "With the #python `re` module for regular expressions, store the matched pattern in a named variable using the `(?P...)` notation. E.g. to match a commit hash: `(?P<hash>[0-9a-z]{40})` stores the matching 40-character commit hash in a variable called `hash`.",
         "id": 219,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Multiple replacements can be chained in a single `sed` command; e.g.:\n\n    $ echo xy | sed 's/x/a/; s/y/b/'\n    ab\n",
