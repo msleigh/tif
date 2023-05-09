@@ -707,7 +707,7 @@
     {
         "content": "Install #xcode command-line tools on #macOS with:\n\n    $ xcode-select --install\n\nTo the see the installation path:\n\n    $ xcode-select --print-path\n\n(or -p for short).",
         "id": 141,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Create an interactive Ubuntu #docker container:\n\n    $ docker run -it --rm ubuntu bash\n\n(`-it` makes the container interactive and `--rm` cleans up after exit)",
