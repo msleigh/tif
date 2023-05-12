@@ -472,7 +472,7 @@
     {
         "content": "Opening #vi or #vim with `+` argument opens the file with the cursor at the end:\n\n    $ vi + <filename>\n",
         "id": 94,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "When using `ex`-style subsitute command (e.g. in `sed` or `vim`), the '&' symbol represent the matched pattern. E.g.:\n\n    $ echo '$VARIABLE' | sed 's/VARIABLE/{&}/'\n\ngives `${VARIABLE}`.\n\nThis is most useful if there are mutliple matches, e.g.\n\n    $ sed 's/ection[1-9]/ubs&/g' <paper.tex\n\nwould turn 'Section1' into 'Subsection1', 'Section2' into 'Subsection2', ...",
