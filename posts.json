@@ -1143,5 +1143,25 @@
         "content": "Initialise and fetch submodules in an already-cloned #git project:\n\n    git submodule update --init [--recursive]\n",
         "id": 229,
         "status": "posted"
+    },
+    {
+        "content": "Automatically remove unused #homebrew formulae on #macos:\n\n    $ brew autoremove [-n]\n\nThe `-n` flag switches on dry-run mode to list what would be removed.",
+        "id": 230,
+        "status": "unposted"
+    },
+    {
+        "content": "List #homebrew sub-commands on #macos:\n\n    $ brew commands\n",
+        "id": 231,
+        "status": "unposted"
+    },
+    {
+        "content": "List all installed #homebrew formulae that depend on a given `<formula>`:\n\n    $ brew uses --recursive --installed <formula>\n",
+        "id": 232,
+        "status": "unposted"
+    },
+    {
+        "content": "Show dependency tree of a given #homebrew formula on #macos:\n\n    $ brew deps --tree --installed <formula>\n",
+        "id": 233,
+        "status": "unposted"
     }
 ]
