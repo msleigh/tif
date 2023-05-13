@@ -922,7 +922,7 @@
     {
         "content": "Use the `:sort u` command in #vim to sort and de-duplicate the lines of a text file in place",
         "id": 184,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Edit a remote file in #vim:\n\n    $ vim scp://[user@]host//path/to/file.txt\n",
