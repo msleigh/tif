@@ -757,7 +757,7 @@
     {
         "content": "Fuzz testing explained: https://www.freecodecamp.org/news/whats-fuzzing-fuzz-testing-explained",
         "id": 151,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Using #regex with a capture group in sed:\n\n    $ sed -E \"s/(.*)\\.jpeg/\\1.jpg/g\" <<< \"example.jpeg\"\n\nThe pattern matched within the brackets is saved a c 'capture group' which is referenced with '\\1'.",
