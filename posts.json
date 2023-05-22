@@ -987,7 +987,7 @@
     {
         "content": "Non-greedy quantifier isn't available in `sed` as it is not implemented in basic or extended Posix/GNU regex. Use instead:\n\n    $ perl -pi -e 's/pattern/replace/'\n",
         "id": 197,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Add a column to a Pandas dataframe which is the result of some operation applied to the existing columns:\n\n    df['new col'] = df.apply(my_function, axis=1)\n\nThe function `my_function(row)` accepts a Series object (a row of the original dataframe) and performs the desired operation on it.",
