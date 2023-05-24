@@ -1087,7 +1087,7 @@
     {
         "content": "The `.split()` method of a string object in #python splits on whitespace by default",
         "id": 217,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "In #python, get a histogram of how many times each unique item appears in a list using the `Counter` class:\n\n     >>> from collections import Counter\n     >>> Counter(['r', 'g', 'g', 'b', 'b', 'b'])\n     Counter({'b': 3, 'g': 2, 'r': 1})\n",
