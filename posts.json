@@ -357,7 +357,7 @@
     {
         "content": "At the command-line `cal` show a calendar view of the current month;\n`cal <year>` shows a calendar view for the full year specified (incl in the\nfuture), `cal <month> <year>` shows the specified month where <month> can be a\nnumber or name (e.g. 9 or sep).",
         "id": 71,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "With:\n\n     $ ssh -L 8000:127.0.0.1:8000 <user>@<host>\n\nyou can connect to a remote server <host> (as <user>) and map its port 8000 to the client port 8000. Connections to the local port 8000 are forwarded to the remote server's port 8000 over the SSH connection.\n\n(Provides a way for example to connect to a web server running on the remote server in a browser on the client.)",
