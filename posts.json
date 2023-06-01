@@ -542,7 +542,7 @@
     {
         "content": "Enabling `at` on #macOS: https://unix.stackexchange.com/a/478840",
         "id": 108,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Convert a file to double line-spacing with `sed`:\n\n    sed 's/$/\\\n    /' file.txt",
