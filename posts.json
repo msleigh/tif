@@ -762,7 +762,7 @@
     {
         "content": "Using #regex with a capture group in sed:\n\n    $ sed -E \"s/(.*)\\.jpeg/\\1.jpg/g\" <<< \"example.jpeg\"\n\nThe pattern matched within the brackets is saved a c 'capture group' which is referenced with '\\1'.",
         "id": 152,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Linux Documentation Project Introduction to Linux: https://tldp.org/LDP/intro-linux/html/index.html",
