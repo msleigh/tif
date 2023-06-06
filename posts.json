@@ -737,7 +737,7 @@
     {
         "content": "Clear saved credentials from #git for a given user/host:\n\n    $ echo url=https://tif@github.com | git credential reject\n\nSee https://git-scm.com/docs/gitfaq#http-reset-credentials",
         "id": 147,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Start the #apache web server on #macOS Monterey:\n\n    sudo launchctl load -w /System/Library/LaunchDaemons/org.apache.httpd.plist\n\nThe document root is in /Library/WebServer/Documents",
