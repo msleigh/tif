@@ -822,7 +822,7 @@
     {
         "content": "Update an existing #conda environment from an updated YAML file:\n\n    $ conda env create update -f environment.yml --prune\n\nThe `--prune` option uninstalls dependencies which were removed.",
         "id": 164,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "The `zip` function in #python is (almost) its own inverse. Use it to zip two lists:\n\n    >>> k = ['a','b']\n    >>> v = [1,2]\n    >>> x=list(zip(k,v))\n    >>> x\n    [('a', 1), ('b', 2)]\n\n`zip()` returns an iterator so for convenience here we store it as a list.\n\nThen unzip it again using `zip()` a second time, with the special `*` unpacking operator:\n\n    >>> list(zip(*x))\n    [('a', 'b'), (1, 2)]",
