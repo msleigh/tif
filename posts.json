@@ -182,7 +182,7 @@
     {
         "content": "Set a #git config value automatically when cloning a repository with the --config or -c option:\n\n    $ git clone -c user.name=tif ...\n",
         "id": 36,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Why can I log into my account with a misspelled password: https://security.stackexchange.com/questions/214814/why-can-i-log-in-to-my-facebook-account-with-a-misspelled-email-password",
