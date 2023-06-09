@@ -912,7 +912,7 @@
     {
         "content": "Bulk unfollow on Twitter:\n\n    python3 -m venv .venv\n    source .venv/bin/activate\n    python3 -m pip install twitter\n    twitter authorize\n    while read NAME ; do\n        twitter leave $NAME\n    done < <(twitter friends | grep '^@' | cut -d' ' -f1 | sort -u)\n    deactivate\n    rm ~/.twitter_oauth\n    rm -rf .venv\n",
         "id": 182,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Use `pipdeptree` to display installed Python packages in the form of a dependencey tree: https://github.com/tox-dev/pipdeptree",
