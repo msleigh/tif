@@ -1017,7 +1017,7 @@
     {
         "content": "Iterate over a range of dates in #python: https://stackoverflow.com/a/1060330",
         "id": 203,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Delete <pattern> from <string> in #bash:\n\n    $ VAR=\"<string>\"\n    $ NEW=\"${VAR//\"<pattern\"}\"\n",
