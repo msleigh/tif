@@ -1032,7 +1032,7 @@
     {
         "content": "Strict GNU compiler settings for debugging/code quality:\n\n    -Wpedantic -Wall -Wextra -Wformat=2 -Wshadow\n",
         "id": 206,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Search for string in specified trees of Git repository:\n\n    git grep -in 'todo' release-condidate develop -- *.py\n\nwhere `release-candidate` and `develop` are refs to search in.",
