@@ -937,7 +937,7 @@
     {
         "content": "Fix missing `pip` in #python env:\n\n    $ python -m ensurepip --default-pip\n",
         "id": 187,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Install local package in #python env with `pip` editable mode:\n\n    $ pip install -e <path-to-package>\n",
