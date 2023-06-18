@@ -857,7 +857,7 @@
     {
         "content": "#vim tip: use 'o' or 'O' (in normal mode) to add a new line after or before the current one, respectively (leaving you in insert mode)",
         "id": 171,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Type `f<char>` in #vim normal mode to move to the next instance of `<char>` on the current line, or `F<char>` to move to the previous instance",
