@@ -1057,7 +1057,7 @@
     {
         "content": "List the #bash shell options that are currently set with `shopt -s`, or that are unset with `-u`.",
         "id": 211,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Repeat the last command in #bash with `!!`; print without executing with `!!:p`.",
