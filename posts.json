@@ -642,7 +642,7 @@
     {
         "content": "The `join` command in #bash extracts and joins the lines from two files that have a common field. The default is to use the first field, e.g.:\n\n    $ cat a.dat\n    a 1 2 3\n    b 2 3\n    $ cat b.dat\n    b 1 3\n    c 9 3\n    $ join a.dat b.dat\n    b 2 3 1 3\n\nUseful if you have data about some object ('b' in this case) across multiple files. Nest commands if more that two files:\n\n    $ join <(join a.dat b.dat) c.dat\n\nThe `-a` option can be used to show unmatched lines.",
         "id": 128,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Mute the startup chime on #macOS Monterey:\n\n    $ sudo nvram StartupMute=%01\n\n(Older versions involved setting `SystemAudioVolume`)",
