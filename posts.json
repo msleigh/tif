@@ -192,7 +192,7 @@
     {
         "content": "Get a trimmmed mean of a data set, i.e. the mean of values within a specified range:\n\n    from scipy import stats\nstats.tmean(my_data, limits = [-1, 1])\n",
         "id": 38,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Bring an application to the foreground from the command line in #macOS using #applescript:\n\n    $ osascript -e \"tell application \\\"Safari\\\" to activate\"\n",
