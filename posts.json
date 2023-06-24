@@ -1022,7 +1022,7 @@
     {
         "content": "Delete <pattern> from <string> in #bash:\n\n    $ VAR=\"<string>\"\n    $ NEW=\"${VAR//\"<pattern\"}\"\n",
         "id": 204,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "List only the names of files returned by `find` command in #bash:\n\n    find <path> -name <pattern> -printf \"%f\\n\"\n\n(Alternative to `find <path> -name <pattern> | xargs -n1 basename`.)",
