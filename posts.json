@@ -1137,7 +1137,7 @@
     {
         "content": "Clone a #git project with submodules:\n\n    git clone --recurse-submodules <url>\n\nThis will initialise the submodules and fetch them, equivalent to:\n\n    git clone <url>\n    cd <project>\n    git submodule init\n    git submodule update\n",
         "id": 228,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Initialise and fetch submodules in an already-cloned #git project:\n\n    git submodule update --init [--recursive]\n",
