@@ -1107,7 +1107,7 @@
     {
         "content": "Replace multiple matches with a given replacement string, using `sed`:\n\n     $ echo xy | sed -E 's/(x|y)/a/g'\n     aa\n",
         "id": 221,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Run a web server in a Docker container and connect to it from the host. Run:\n\n    docker run --publish 80:80 --detach nginx\n\nthen navigate to `http://localhost:80`.\n\nTo map to a different post on the host, e.g. 8001:\n\n    docker run -p 8001:80 -d nginx\n\nthen navigate to `http://localhost:8001`.",
