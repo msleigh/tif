@@ -222,7 +222,7 @@
     {
         "content": "Get descriptive statistics for a data series in Pandas:\n\n    >>> my_series.describe()\n\nE.g. count, mean, min, max, percentiles.\n\nIn SciPy:\n\n    >>> from scipy import stats\n    >>> stats.describe(my_series)\n\nincludes skewness and kurtosis.\n\nGet particular attributes:\n\n    stats.describe(my_series).kurtosis\n\nhttps://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.describe.html",
         "id": 44,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "So you think you know C?\n\nhttps://wordsandbuttons.online/SYTYKC.pdf",
