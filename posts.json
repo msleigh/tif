@@ -1002,7 +1002,7 @@
     {
         "content": "Show the type of a Git object with `git cat-file -t`:\n\n    $ g cat-file -t df68b79e68c113cb64eab5fab8b299f84ddfe2f9\n    commit\n\n    $ g cat-file -t main\n    commit\n",
         "id": 200,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Recursively delete a directory and its contents in #python with:\n\n    shutil.rmtree(path)\n\n(where `path` must be a directory not a symlink).",
