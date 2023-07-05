@@ -1147,7 +1147,7 @@
     {
         "content": "Automatically remove unused #homebrew formulae on #macos:\n\n    $ brew autoremove [-n]\n\nThe `-n` flag switches on dry-run mode to list what would be removed.",
         "id": 230,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "List #homebrew sub-commands on #macos:\n\n    $ brew commands\n",
