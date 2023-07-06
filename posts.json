@@ -1012,7 +1012,7 @@
     {
         "content": "Today's date in YYYY-mm-dd format in #python:\n\n     >>> from datetime import date\n     >>> date.today().strftime('%Y-%m-%d')\n    '2023-03-21'\n",
         "id": 202,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Iterate over a range of dates in #python: https://stackoverflow.com/a/1060330",
