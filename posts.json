@@ -1152,7 +1152,7 @@
     {
         "content": "List #homebrew sub-commands on #macos:\n\n    $ brew commands\n",
         "id": 231,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "List all installed #homebrew formulae that depend on a given `<formula>`:\n\n    $ brew uses --recursive --installed <formula>\n",
