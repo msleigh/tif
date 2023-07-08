@@ -892,7 +892,7 @@
     {
         "content": "Get environment variable in #python with `os.environ`:\n\n    >>> import os\n    >>> print(os.environ['AUTH_TOKEN'])\n",
         "id": 178,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Reload a file in #vim (if it has changes externally) with `:e`. Use `:e!` to discard any local changes.",
