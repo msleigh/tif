@@ -1062,7 +1062,7 @@
     {
         "content": "Repeat the last command in #bash with `!!`; print without executing with `!!:p`.",
         "id": 212,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "In #bash, repeat the most recent command beginning with `<string>` by entering `!<string>`. Only print the command, without executing it, by adding `:p`; i.e. enter `!<string>:p`.",
