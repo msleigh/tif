@@ -1157,7 +1157,7 @@
     {
         "content": "List all installed #homebrew formulae that depend on a given `<formula>`:\n\n    $ brew uses --recursive --installed <formula>\n",
         "id": 232,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Show dependency tree of a given #homebrew formula on #macos:\n\n    $ brew deps --tree --installed <formula>\n",
