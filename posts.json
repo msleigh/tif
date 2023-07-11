@@ -1112,7 +1112,7 @@
     {
         "content": "Run a web server in a Docker container and connect to it from the host. Run:\n\n    docker run --publish 80:80 --detach nginx\n\nthen navigate to `http://localhost:80`.\n\nTo map to a different post on the host, e.g. 8001:\n\n    docker run -p 8001:80 -d nginx\n\nthen navigate to `http://localhost:8001`.",
         "id": 223,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Attach to a running Docker container:\n\n    docker attach <container-id>\n\nFor example, start a Bash process on an Ubuntu image, and attach to it after:\n\n    docker run --detach --interactive --tty --name bashdemo ubuntu /bin/bash\n\n    docker attach bashdemo\n",
