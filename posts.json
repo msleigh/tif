@@ -1122,7 +1122,7 @@
     {
         "content": "To quickly test Bash commands on Linux (e.g. on a macOS host), create a #docker container, e.g.:\n\n    docker -dit --name bashtest ubuntu /bin/bash\n\nAttach with:\n\n    docker attach bashdemo\n\nOnce exited, restart and attach for future sessions:\n\n    docker start bashdemo\n    docker attach bashdemo\n",
         "id": 225,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Build #docker image for Linux on MacOS:\n\n    docker buildx build --platform linux/amd64 -t <tag> .\n",
