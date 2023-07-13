@@ -1127,7 +1127,7 @@
     {
         "content": "Build #docker image for Linux on MacOS:\n\n    docker buildx build --platform linux/amd64 -t <tag> .\n",
         "id": 226,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Add a new #git submodule to a project:\n\n    git submodule add <url>\n",
