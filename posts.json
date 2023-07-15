@@ -832,7 +832,7 @@
     {
         "content": "The #python `os.path.split()` function splits a path into a `(head, tail)` pair where `tail` is the last component of the pathname (what you would get from `basename`) and the `head` is everything up to that (what you would get from `dirname`).",
         "id": 166,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Zip two lists into a dictionary in #python:\n\n    >>> keys = ['a','b','c']\n    >>> vals = [1,2,3]\n    >>> dict(zip(keys,vals))\n    {'a': 1, 'b': 2, 'c': 3}\n",
