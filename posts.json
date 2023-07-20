@@ -347,7 +347,7 @@
     {
         "content": "Use `\\dot{}` and `\\ddot{}` in #latex to get a dot and double dot, respectively, over text (in math mode).",
         "id": 69,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "#tmux cheat sheet: https://tmuxcheatsheet.com",
