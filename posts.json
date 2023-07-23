@@ -952,7 +952,7 @@
     {
         "content": "Show dates in Git's reflog:\n\n    $ git reflog --date=iso\n",
         "id": 190,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "List the available `find_package` and utility modules in CMake:\n\n    $ cmake --help-module-list\n",
