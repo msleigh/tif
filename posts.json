@@ -607,7 +607,7 @@
     {
         "content": "The `trap` command in a #bash script intercepts signals sent to the process and performs the specified commands before exiting:\n\n    trap [commands] [signals]\n\nE.g. to clean up a temporary file on receipt of signal 1 (hangup) or 2 (interrupt)\n\n    trap 'rm file.tmp; exit' 1 2\n\nThe exit code of the `exit` statement will be that of the most recent command, in the case the `rm` command.",
         "id": 121,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Iterate over two sequences in parallel in #python, with `zip`; e.g. to combine two lists into a dictionary:\n\n   >>> l1 = ['a', 'b', 'c', 'd']\n   >>> l2 = [10, 2, 23, 0]\n   >>> for (key, val) in zip(l1, l2): mydict(key) = val\n   >>> mydict\n   {'a': 10, 'b': 2, 'c': 23, 'd': 0}\n",
