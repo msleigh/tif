@@ -787,7 +787,7 @@
     {
         "content": "Using templates to write better #git commit messages: https://gist.github.com/lisawolderiksen/a7b99d94c92c6671181611be1641c733",
         "id": 157,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Check if a TCP port is open on #macOS:\n\n    $ nc -zv <ip-address> <port>",
