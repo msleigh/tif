@@ -1173,5 +1173,45 @@
         "content": "Remove dangling #docker images:\n\n    docker image prune\n\nand containers:\n\n    docker container prune\n",
         "id": 235,
         "status": "unposted"
+    },
+    {
+        "content": "In #python, functions whose names begin with an underscore are considered private, and shouldn't be accessed from outside their module. A double underscore emphasises the point. This is just a convention - nothing prevents elements marked private in this way from being used outside the module. (One case where it makes a difference is if everything from a module is imported via `from <x> import *`; then the elements with leading underscores won't be imported. But this type of import statement should be avoided.\n\nMethods beginning with _ or __ are also considered private; these have their names mangled to include the class name, but can still be accessed via the mangled name.)",
+        "id": 236,
+        "status": "unposted"
+    },
+    {
+        "content": "The `__init__` method of a #python class should be type-hinted as `-> None`.",
+        "id": 237,
+        "status": "unposted"
+    },
+    {
+        "content": "From #python 3.10, the type hint for an _optional_ parameter or return value can be written with union notation, e.g. `def func(param: int | None) -> str | None:`. The `typing.Union[int, None]` construct can also be used. The previous syntax `typing.Optional[int] is still valid`.",
+        "id": 238,
+        "status": "unposted"
+    },
+    {
+        "content": "The `tomlkit` library for #python provides the capability to both read and write TOML files, and is style-preserving (https://tomlkit.readthedocs.io). The built-in `tomllib` module (available from 3.11) and its third-party predecessor `tomli` don't support writing, but a write-only counterpart to `tomli` called `tomli-w` also exists.",
+        "id": 240,
+        "status": "unposted"
+    },
+    {
+        "content": "The #python built-in function `locals()` updates and returns a dictionary containing the current local symbol table. (The contents should not be modified.)",
+        "id": 241,
+        "status": "unposted"
+    },
+    {
+        "content": "Apply a #vim command to a range of lines, e.g.: `:20,30s/wrong/right/g`.",
+        "id": 242,
+        "status": "unposted"
+    },
+    {
+        "content": "Link to a section heading in #markdown: `[link text](#text-of-heading)`. The heading text should be all lower-case, with whitespace replaced with `-`, and prepended with `#`.",
+        "id": 243,
+        "status": "unposted"
+    },
+    {
+        "content": "To convert data in a Python `bytes` object to string, use the `.decode()` method. E.g.:\n\n    >>> import subprocess\n    >>> cmdout = subprocess.run('pwd', capture_output=True)\n    >>> cmdout.stdout\n    b'/private/tmp\\n'\n    >>> cmdout.stdout.decode()\n    '/private/tmp\\n'\n\nWithout any arguments, `decode()` assumes UTF-8.",
+        "id": 244,
+        "status": "unposted"
     }
 ]
