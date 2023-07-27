@@ -537,7 +537,7 @@
     {
         "content": "Bash Automated Testing System: https://bats-core.readthedocs.io/en/stable/index.html",
         "id": 107,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Enabling `at` on #macOS: https://unix.stackexchange.com/a/478840",
@@ -1162,6 +1162,16 @@
     {
         "content": "Show dependency tree of a given #homebrew formula on #macos:\n\n    $ brew deps --tree --installed <formula>\n",
         "id": 233,
+        "status": "unposted"
+    },
+    {
+        "content": "Follow output from a running #docker container:\n\n    docker logs -f <container>\n\nwhere <container> can be the container's ID or name.\n",
+        "id": 234,
+        "status": "unposted"
+    },
+    {
+        "content": "Remove dangling #docker images:\n\n    docker image prune\n\nand containers:\n\n    docker container prune\n",
+        "id": 235,
         "status": "unposted"
     }
 ]
