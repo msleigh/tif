@@ -247,7 +247,7 @@
     {
         "content": "Get quantiles of a Pandas series (e.g. at 25%, 50%, 75%):\n\n    my_series.quantile([0.25, 0.5, 0.75])\n\nhttps://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.quantile.html",
         "id": 49,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Use Apache virtual hosts on #macOS: https://jasonmccreary.me/articles/configure-apache-virtualhost-mac-os-x",
