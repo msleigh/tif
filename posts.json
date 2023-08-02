@@ -1172,7 +1172,7 @@
     {
         "content": "Remove dangling #docker images:\n\n    docker image prune\n\nand containers:\n\n    docker container prune\n",
         "id": 235,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "In #python, functions whose names begin with an underscore are considered private, and shouldn't be accessed from outside their module. A double underscore emphasises the point. This is just a convention - nothing prevents elements marked private in this way from being used outside the module. (One case where it makes a difference is if everything from a module is imported via `from <x> import *`; then the elements with leading underscores won't be imported. But this type of import statement should be avoided.\n\nMethods beginning with _ or __ are also considered private; these have their names mangled to include the class name, but can still be accessed via the mangled name.)",
