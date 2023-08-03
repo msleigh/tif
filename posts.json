@@ -87,7 +87,7 @@
     {
         "content": "Magic functions in Jupyter notebooks; begin with a '%' symbol and define shortcuts useful for interactive work, e.g.:\n\n    %ls\n\n    %cd ..\n\n    %history\n\n    %lsmagic\n\n    %pwd\n\n    %run my_python_script\n",
         "id": 17,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Create a #python dictionary with tuple keys:\n\n    >>> my_dict = {(x, y): x**2 + 2*y for x in range(5) for y in range(2)}\n",
