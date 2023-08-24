@@ -40,9 +40,9 @@
         "status": "posted"
     },
     {
-        "content": "Kill a tmux session:\n\n    tmux kill-session -t <session-name>",
+        "content": "Kill a #tmux session:\n\n    tmux kill-session -t <session-name>",
         "id": 8,
-        "status": "posted"
+        "status": "unposted"
     },
     {
         "content": "Manage #latex packages:\n\n    # Info on installed/available packages\n    tlmgr info amsmath\n    tlmgr info geometry graphicsa\n\n    # List all / all installed\n    tlmgr info [--only-installed]\n\n    # Install a package:\n    tlmgr install hyphen-french\n    tlmgr remove yazd-thesis",
@@ -145,9 +145,9 @@
         "status": "posted"
     },
     {
-        "content": "To switch on mouse scrolling in tmux:\n\n    set -g mouse on\n\n(The `-g` option means global; set for every session, window and pane).\n\nAdd to `~/.tmux.conf` to make permanent.",
+        "content": "To switch on mouse scrolling in #tmux:\n\n    set -g mouse on\n\n(The `-g` option means global; set for every session, window and pane).\n\nAdd to `~/.tmux.conf` to make permanent.",
         "id": 29,
-        "status": "posted"
+        "status": "unposted"
     },
     {
         "content": "#python has a built-in string consisting of punctuation marks:\n\n    >>> import string\n    >>> string.punctuation\n    '!\"#$%&\\'()*+,-./:;<=>?@[\\\\]^_`{|}~'\n",
@@ -155,7 +155,7 @@
         "status": "posted"
     },
     {
-        "content": "Save tmux sessions across system reboots with tmux-resurrect plugin: https://github.com/tmux-plugins/tmux-resurrect\n\nOnce installed, use <prefix> + <Ctrl>-<s> to save, <prefix> + <Ctrl>+<r> to restore.",
+        "content": "Save #tmux sessions across system reboots with tmux-resurrect plugin: https://github.com/tmux-plugins/tmux-resurrect\n\nOnce installed, use <prefix> + <Ctrl>-<s> to save, <prefix> + <Ctrl>+<r> to restore.",
         "id": 31,
         "status": "unposted"
     },
@@ -170,7 +170,7 @@
         "status": "posted"
     },
     {
-        "content": "Set up plugins in tmux with Tmux Plugin Manager.\n\n1. Clone:\n\n    $ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm\n\n2. Add:\n\n    set -g @plugin 'tmux-plugins/tpm'\n    run '~/.tmux/plugins/tpm/tpm'\n\nto the bottom of ~/.tmux.conf.\n\nhttps://github.com/tmux-plugins/tpm",
+        "content": "Set up plugins in #tmux with Tmux Plugin Manager.\n\n1. Clone:\n\n    $ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm\n\n2. Add:\n\n    set -g @plugin 'tmux-plugins/tpm'\n    run '~/.tmux/plugins/tpm/tpm'\n\nto the bottom of ~/.tmux.conf.\n\nhttps://github.com/tmux-plugins/tpm",
         "id": 34,
         "status": "unposted"
     },
@@ -190,9 +190,9 @@
         "status": "posted"
     },
     {
-        "content": "Get a trimmmed mean of a data set, i.e. the mean of values within a specified range:\n\n    from scipy import stats\nstats.tmean(my_data, limits = [-1, 1])\n",
+        "content": "Get a trimmed mean of a data set, i.e. the mean of values within a specified range:\n\n    from scipy import stats\n    stats.tmean(my_data, limits = [-1, 1])\n",
         "id": 38,
-        "status": "posted"
+        "status": "unposted"
     },
     {
         "content": "Bring an application to the foreground from the command line in #macOS using #applescript:\n\n    $ osascript -e \"tell application \\\"Safari\\\" to activate\"\n",
@@ -325,9 +325,9 @@
         "status": "unposted"
     },
     {
-        "content": "Find out what branches have been merged in #git\n\nList branches merged into <branch>:\n\n    $ git branch --merged <branch>\n\nList branches merged into current branch:\n\n    $ git branch --merged\n\nList branches that have not been merged\n\n    $ git branch --no-merged\n\nAdd `-a` option to show both local and remote branches, `-r` to show only remote branches.",
+        "content": "Find out what branches have been merged in #git\n\nList branches merged into <branch>:\n\n    $ git branch --merged <branch>\n\nList branches merged into current branch:\n\n    $ git branch --merged\n\nList branches that have not been merged:\n\n    $ git branch --no-merged\n\nAdd `-a` option to show both local and remote branches, `-r` to show only remote branches.",
         "id": 65,
-        "status": "posted"
+        "status": "unposted"
     },
     {
         "content": "Use '\\in' to produce the \u2208 symbol in #latex",
@@ -640,9 +640,9 @@
         "status": "posted"
     },
     {
-        "content": "The `join` command in #bash extracts and joins the lines from two files that have a common field. The default is to use the first field, e.g.:\n\n    $ cat a.dat\n    a 1 2 3\n    b 2 3\n    $ cat b.dat\n    b 1 3\n    c 9 3\n    $ join a.dat b.dat\n    b 2 3 1 3\n\nUseful if you have data about some object ('b' in this case) across multiple files. Nest commands if more that two files:\n\n    $ join <(join a.dat b.dat) c.dat\n\nThe `-a` option can be used to show unmatched lines.",
+        "content": "The `join` command in #bash extracts and joins the lines from two files that have a common field. The default is to use the first field, e.g.:\n\n    $ cat a.dat\n    a 1 2 3\n    b 2 3\n    $ cat b.dat\n    b 1 3\n    c 9 3\n    $ join a.dat b.dat\n    b 2 3 1 3\n\nUseful if you have data about some object ('b' in this case) across multiple files. Nest commands if more than two files:\n\n    $ join <(join a.dat b.dat) c.dat\n\nThe `-a` option can be used to show unmatched lines.",
         "id": 128,
-        "status": "posted"
+        "status": "unposted"
     },
     {
         "content": "Mute the startup chime on #macOS Monterey:\n\n    $ sudo nvram StartupMute=%01\n\n(Older versions involved setting `SystemAudioVolume`)",
@@ -760,9 +760,9 @@
         "status": "posted"
     },
     {
-        "content": "Using #regex with a capture group in sed:\n\n    $ sed -E \"s/(.*)\\.jpeg/\\1.jpg/g\" <<< \"example.jpeg\"\n\nThe pattern matched within the brackets is saved a c 'capture group' which is referenced with '\\1'.",
+        "content": "Using #regex with a capture group in sed:\n\n    $ sed -E \"s/(.*)\\.jpeg/\\1.jpg/g\" <<< \"example.jpeg\"\n\nThe pattern matched within the brackets is saved as a 'capture group' which is referenced with '\\1'.",
         "id": 152,
-        "status": "posted"
+        "status": "unposted"
     },
     {
         "content": "Linux Documentation Project Introduction to Linux: https://tldp.org/LDP/intro-linux/html/index.html",
@@ -870,9 +870,9 @@
         "status": "posted"
     },
     {
-        "content": "Find the set difference between two arrays in #python NumPy:\n\n    >>> import numpy as np\n    >>> array1 = [1, 2, 3]\n    >>> array2 = [3, 4]\n    >>> np.setdiff1d(array1, array2)\n    array([1, 2])\n\nIn #python `os.mkdir()` makes a directory (like #bash `mkdir`) and `os.makedirs()` recursively makes all intermediate directories in the provided path, and with `exist_ok=True` doesn't raise an error if any exist (like #bash `mkdir -p`).",
+        "content": "In #python `os.mkdir()` makes a directory (like #bash `mkdir`) and `os.makedirs()` recursively makes all intermediate directories in the provided path, and with `exist_ok=True` doesn't raise an error if any exist (like #bash `mkdir -p`).",
         "id": 174,
-        "status": "posted"
+        "status": "unposted"
     },
     {
         "content": "Cookiecutter is a command-line utility that creates projects, e.g. a #python package, from templates. Cross-platform, language-agnostic, works with templates stored locally or on #github, thousands of pre-existing templates available.\n\nhttps://cookiecutter.readthedocs.io",
@@ -915,9 +915,9 @@
         "status": "posted"
     },
     {
-        "content": "Use `pipdeptree` to display installed Python packages in the form of a dependencey tree: https://github.com/tox-dev/pipdeptree",
+        "content": "Use `pipdeptree` to display installed Python packages in the form of a dependency tree: https://github.com/tox-dev/pipdeptree",
         "id": 183,
-        "status": "posted"
+        "status": "unposted"
     },
     {
         "content": "Use the `:sort u` command in #vim to sort and de-duplicate the lines of a text file in place",
@@ -1035,9 +1035,9 @@
         "status": "posted"
     },
     {
-        "content": "Search for string in specified trees of Git repository:\n\n    git grep -in 'todo' release-condidate develop -- *.py\n\nwhere `release-candidate` and `develop` are refs to search in.",
+        "content": "Search for string in specified trees of Git repository:\n\n    git grep -in 'todo' release-candidate develop -- *.py\n\nwhere `release-candidate` and `develop` are refs to search in.",
         "id": 207,
-        "status": "posted"
+        "status": "unposted"
     },
     {
         "content": "Search for absent string in specified trees of Git repository:\n\n    git grep -iLv 'copyright' 1.0.0\n\nwhere `1.0.0` is a refs to search.",
@@ -1045,14 +1045,14 @@
         "status": "unposted"
     },
     {
-        "content": "Globs in bash.\\n\\nAs well as `*` matching any text (or none), `?",
+        "content": "Find the set difference between two arrays in #python NumPy:\n\n    >>> import numpy as np\n    >>> array1 = [1, 2, 3]\n    >>> array2 = [3, 4]\n    >>> np.setdiff1d(array1, array2)\n    array([1, 2])\n",
         "id": 209,
-        "status": "posted"
+        "status": "unposted"
     },
     {
-        "content": "Globs in bash.\\n\\nAs well as `*` matching any text (or none), `?` matches any single character, `[charset]` matches any single character in `charset`, and `[[:class:]]` matches any single character in the named class. E.g.:\n\n    ls ~/.vim/swaps/*.sw?\n    find . -name \"calc[0-9].out\"\n    ls [[:upper:]]*\n\nOther classes include `alnum`, `alpha`, `digit`, `lower`, `punct`, ...",
+        "content": "Globs in bash.\n\nAs well as `*` matching any text (or none), `?` matches any single character, `[charset]` matches any single character in `charset`, and `[[:class:]]` matches any single character in the named class. E.g.:\n\n    ls ~/.vim/swaps/*.sw?\n    find . -name \"calc[0-9].out\"\n    ls [[:upper:]]*\n\nOther classes include `alnum`, `alpha`, `digit`, `lower`, `punct`, ...",
         "id": 210,
-        "status": "posted"
+        "status": "unposted"
     },
     {
         "content": "List the #bash shell options that are currently set with `shopt -s`, or that are unset with `-u`.",
@@ -1115,14 +1115,14 @@
         "status": "posted"
     },
     {
-        "content": "Attach to a running Docker container:\n\n    docker attach <container-id>\n\nFor example, start a Bash process on an Ubuntu image, and attach to it after:\n\n    docker run --detach --interactive --tty --name bashdemo ubuntu /bin/bash\n\n    docker attach bashdemo\n",
+        "content": "Attach to a running Docker container:\n\n    docker attach <container-id>\n\nFor example, start a Bash process on an Ubuntu image, and attach to it after:\n\n    docker run --detach --interactive --tty --name bashdemo ubuntu /bin/bash\n    docker attach bashdemo\n",
         "id": 224,
-        "status": "posted"
+        "status": "unposted"
     },
     {
-        "content": "To quickly test Bash commands on Linux (e.g. on a macOS host), create a #docker container, e.g.:\n\n    docker -dit --name bashtest ubuntu /bin/bash\n\nAttach with:\n\n    docker attach bashdemo\n\nOnce exited, restart and attach for future sessions:\n\n    docker start bashdemo\n    docker attach bashdemo\n",
+        "content": "To quickly test Bash commands on Linux (e.g. on a macOS host), create a #docker container, e.g.:\n\n    docker run -dit --name bashdemo ubuntu /bin/bash\n\nAttach with:\n\n    docker attach bashdemo\n\nOnce exited, restart and attach for future sessions:\n\n    docker start bashdemo\n    docker attach bashdemo\n",
         "id": 225,
-        "status": "posted"
+        "status": "unposted"
     },
     {
         "content": "Build #docker image for Linux on MacOS:\n\n    docker buildx build --platform linux/amd64 -t <tag> .\n",
