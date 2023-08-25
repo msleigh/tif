@@ -1202,7 +1202,7 @@
     {
         "content": "Apply a #vim command to a range of lines, e.g.: `:20,30s/wrong/right/g`.",
         "id": 242,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Link to a section heading in #markdown: `[link text](#text-of-heading)`. The heading text should be all lower-case, with whitespace replaced with `-`, and prepended with `#`.",
