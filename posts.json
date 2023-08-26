@@ -42,7 +42,7 @@
     {
         "content": "Kill a #tmux session:\n\n    tmux kill-session -t <session-name>",
         "id": 8,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Manage #latex packages:\n\n    # Info on installed/available packages\n    tlmgr info amsmath\n    tlmgr info geometry graphicsa\n\n    # List all / all installed\n    tlmgr info [--only-installed]\n\n    # Install a package:\n    tlmgr install hyphen-french\n    tlmgr remove yazd-thesis",
