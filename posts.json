@@ -327,7 +327,7 @@
     {
         "content": "Find out what branches have been merged in #git\n\nList branches merged into <branch>:\n\n    $ git branch --merged <branch>\n\nList branches merged into current branch:\n\n    $ git branch --merged\n\nList branches that have not been merged:\n\n    $ git branch --no-merged\n\nAdd `-a` option to show both local and remote branches, `-r` to show only remote branches.",
         "id": 65,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Use '\\in' to produce the \u2208 symbol in #latex",
