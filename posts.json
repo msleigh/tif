@@ -177,7 +177,7 @@
     {
         "content": "View documentation for an installed #latex package:\n\n    texdoc acronym",
         "id": 35,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Set a #git config value automatically when cloning a repository with the --config or -c option:\n\n    $ git clone -c user.name=tif ...\n",
