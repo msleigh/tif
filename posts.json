@@ -812,7 +812,7 @@
     {
         "content": "In #bash display a file with line endings:\n\n    $ cat -e <filename>\n\nUnix line endings are displayed as as `$` and Windows line endings as `^M$`. The `-t` option will show tabs as `^I`, and `-A` will show both line endings and tabs.",
         "id": 162,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Comments in HTML start with `<!--` and end with `-->`",
