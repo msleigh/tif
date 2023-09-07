@@ -1037,7 +1037,7 @@
     {
         "content": "Search for string in specified trees of Git repository:\n\n    git grep -in 'todo' release-candidate develop -- *.py\n\nwhere `release-candidate` and `develop` are refs to search in.",
         "id": 207,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Search for absent string in specified trees of Git repository:\n\n    git grep -iLv 'copyright' 1.0.0\n\nwhere `1.0.0` is a refs to search.",
