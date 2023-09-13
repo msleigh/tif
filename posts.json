@@ -1082,7 +1082,7 @@
     {
         "content": "Search/replace in the previous #bash command with `^<pattern>^<replacement>`:\n\n    tocuh filea\n    ^cu^uc\n\nor:\n\n    ln -s /long/path/to/file1 ./newfile1\n    ^1^2\n    ^2^3\n",
         "id": 216,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "The `.split()` method of a string object in #python splits on whitespace by default",
