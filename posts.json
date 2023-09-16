@@ -1162,7 +1162,7 @@
     {
         "content": "Show dependency tree of a given #homebrew formula on #macos:\n\n    $ brew deps --tree --installed <formula>\n",
         "id": 233,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Follow output from a running #docker container:\n\n    docker logs -f <container>\n\nwhere <container> can be the container's ID or name.\n",
