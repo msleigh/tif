@@ -1207,7 +1207,7 @@
     {
         "content": "Link to a section heading in #markdown: `[link text](#text-of-heading)`. The heading text should be all lower-case, with whitespace replaced with `-`, and prepended with `#`.",
         "id": 243,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "To convert data in a Python `bytes` object to string, use the `.decode()` method. E.g.:\n\n    >>> import subprocess\n    >>> cmdout = subprocess.run('pwd', capture_output=True)\n    >>> cmdout.stdout\n    b'/private/tmp\\n'\n    >>> cmdout.stdout.decode()\n    '/private/tmp\\n'\n\nWithout any arguments, `decode()` assumes UTF-8.",
