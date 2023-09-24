@@ -1182,7 +1182,7 @@
     {
         "content": "The `__init__` method of a #python class should be type-hinted as `-> None`.",
         "id": 237,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "From #python 3.10, the type hint for an _optional_ parameter or return value can be written with union notation, e.g. `def func(param: int | None) -> str | None:`. The `typing.Union[int, None]` construct can also be used. The previous syntax `typing.Optional[int] is still valid`.",
