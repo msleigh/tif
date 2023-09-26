@@ -1052,7 +1052,7 @@
     {
         "content": "Globs in bash.\n\nAs well as `*` matching any text (or none), `?` matches any single character, `[charset]` matches any single character in `charset`, and `[[:class:]]` matches any single character in the named class. E.g.:\n\n    ls ~/.vim/swaps/*.sw?\n    find . -name \"calc[0-9].out\"\n    ls [[:upper:]]*\n\nOther classes include `alnum`, `alpha`, `digit`, `lower`, `punct`, ...",
         "id": 210,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "List the #bash shell options that are currently set with `shopt -s`, or that are unset with `-u`.",
