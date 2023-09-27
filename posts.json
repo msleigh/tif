@@ -147,7 +147,7 @@
     {
         "content": "To switch on mouse scrolling in #tmux:\n\n    set -g mouse on\n\n(The `-g` option means global; set for every session, window and pane).\n\nAdd to `~/.tmux.conf` to make permanent.",
         "id": 29,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "#python has a built-in string consisting of punctuation marks:\n\n    >>> import string\n    >>> string.punctuation\n    '!\"#$%&\\'()*+,-./:;<=>?@[\\\\]^_`{|}~'\n",
