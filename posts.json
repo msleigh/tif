@@ -1072,7 +1072,7 @@
     {
         "content": "Insert the last token from the previous #bash command into the current command with `!$`. E.g.:\n\n    mkdir -p ./long/path/to/new/folder\n    cd !$\n",
         "id": 214,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Insert all but the first token from the previous #bash command into the current command with `!*`. E.g.:\n\n    touch filea fileb filec\n    chmod 660 !*\n",
