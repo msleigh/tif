@@ -592,7 +592,7 @@
     {
         "content": "Convert between different physical units at the command line using the `units` command in #bash",
         "id": 118,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "In #bash the `for` command has a default argument `in \"$@\"`, so will by default loop over the positional parameters; i.e.:\n\n    for x ; do\n       echo $x\n    done\n\nis equivalent to:\n\n    for x in \"$@\" ; do\n        echo $x\n    done",
