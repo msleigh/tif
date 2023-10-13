@@ -1212,7 +1212,7 @@
     {
         "content": "To convert data in a Python `bytes` object to string, use the `.decode()` method. E.g.:\n\n    >>> import subprocess\n    >>> cmdout = subprocess.run('pwd', capture_output=True)\n    >>> cmdout.stdout\n    b'/private/tmp\\n'\n    >>> cmdout.stdout.decode()\n    '/private/tmp\\n'\n\nWithout any arguments, `decode()` assumes UTF-8.",
         "id": 244,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "GRIP (GitHub Readme Instant Preview) is a Python command-line application for previewing README files locally in the browser. Install with `pipx install grip`, run with `grip -b`.\\n\\nhttps://github.com/joeyespo/grip",
