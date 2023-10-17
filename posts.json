@@ -1007,7 +1007,7 @@
     {
         "content": "Recursively delete a directory and its contents in #python with:\n\n    shutil.rmtree(path)\n\n(where `path` must be a directory not a symlink).",
         "id": 201,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Today's date in YYYY-mm-dd format in #python:\n\n     >>> from datetime import date\n     >>> date.today().strftime('%Y-%m-%d')\n    '2023-03-21'\n",
