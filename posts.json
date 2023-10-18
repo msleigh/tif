@@ -1197,7 +1197,7 @@
     {
         "content": "The #python built-in function `locals()` updates and returns a dictionary containing the current local symbol table. (The contents should not be modified.)",
         "id": 241,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Apply a #vim command to a range of lines, e.g.: `:20,30s/wrong/right/g`.",
