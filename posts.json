@@ -697,7 +697,7 @@
     {
         "content": "See http://mywiki.wooledge.org/BashPitfalls for common #bash pitfalls",
         "id": 139,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "#python built-in functions and types that are always available to the interpreter: https://docs.python.org/3/library/functions.html",
