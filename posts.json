@@ -1233,5 +1233,10 @@
         "content": "Print a file in reverse order in #bash with `tac`. Part of coreutils (so requires `brew install coreutils` on #macos).",
         "id": 248,
         "status": "unposted"
+    },
+    {
+        "content": "List installed packages in the current #python venv:\n\n    python3 -m pip list [options]\n",
+        "id": 249,
+        "status": "unposted"
     }
 ]
