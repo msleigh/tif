@@ -1238,5 +1238,15 @@
         "content": "List installed packages in the current #python venv:\n\n    python3 -m pip list [options]\n",
         "id": 249,
         "status": "unposted"
+    },
+    {
+        "content": "Sync current directory with an #AWS #S3 bucket, excluding some files:\n\n    aws s3 sync . s3://<bucket-name>\\\n         --exclude '.git'\\\n         --exclude '.gitignore'\\\n         --exclude 'README.md'\n",
+        "id": 250,
+        "status": "unposted"
+    },
+    {
+        "content": "Test a PHP website locally:\n\n    brew install php # (For MacOS)\n    cd path/to/website # Must contain index.php\n    php -S localhost:8000\n\nThen navigate to http://localhost:8000 in a browser.\n",
+        "id": 251,
+        "status": "unposted"
     }
 ]
