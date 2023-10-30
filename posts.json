@@ -1247,6 +1247,6 @@
     {
         "content": "Test a PHP website locally:\n\n    brew install php # (For MacOS)\n    cd path/to/website # Must contain index.php\n    php -S localhost:8000\n\nThen navigate to http://localhost:8000 in a browser.\n",
         "id": 251,
-        "status": "unposted"
+        "status": "posted"
     }
 ]
