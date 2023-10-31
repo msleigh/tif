@@ -1167,7 +1167,7 @@
     {
         "content": "Follow output from a running #docker container:\n\n    docker logs -f <container>\n\nwhere <container> can be the container's ID or name.\n",
         "id": 234,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Remove dangling #docker images:\n\n    docker image prune\n\nand containers:\n\n    docker container prune\n",
