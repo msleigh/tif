@@ -172,7 +172,7 @@
     {
         "content": "Set up plugins in #tmux with Tmux Plugin Manager.\n\n1. Clone:\n\n    $ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm\n\n2. Add:\n\n    set -g @plugin 'tmux-plugins/tpm'\n    run '~/.tmux/plugins/tpm/tpm'\n\nto the bottom of ~/.tmux.conf.\n\nhttps://github.com/tmux-plugins/tpm",
         "id": 34,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "View documentation for an installed #latex package:\n\n    texdoc acronym",
