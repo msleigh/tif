@@ -1187,7 +1187,7 @@
     {
         "content": "From #python 3.10, the type hint for an _optional_ parameter or return value can be written with union notation, e.g. `def func(param: int | None) -> str | None:`. The `typing.Union[int, None]` construct can also be used. The previous syntax `typing.Optional[int] is still valid`.",
         "id": 238,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "The `tomlkit` library for #python provides the capability to both read and write TOML files, and is style-preserving (https://tomlkit.readthedocs.io). The built-in `tomllib` module (available from 3.11) and its third-party predecessor `tomli` don't support writing, but a write-only counterpart to `tomli` called `tomli-w` also exists.",
