@@ -1227,7 +1227,7 @@
     {
         "content": "List all defined functions in the current environment with `declare -F`. Use `declare -f` to list all the functions in full (i.e. including definitions).\n#bash",
         "id": 247,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Print a file in reverse order in #bash with `tac`. Part of coreutils (so requires `brew install coreutils` on #macos).",
