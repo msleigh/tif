@@ -1047,7 +1047,7 @@
     {
         "content": "Find the set difference between two arrays in #python NumPy:\n\n    >>> import numpy as np\n    >>> array1 = [1, 2, 3]\n    >>> array2 = [3, 4]\n    >>> np.setdiff1d(array1, array2)\n    array([1, 2])\n",
         "id": 209,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "Globs in bash.\n\nAs well as `*` matching any text (or none), `?` matches any single character, `[charset]` matches any single character in `charset`, and `[[:class:]]` matches any single character in the named class. E.g.:\n\n    ls ~/.vim/swaps/*.sw?\n    find . -name \"calc[0-9].out\"\n    ls [[:upper:]]*\n\nOther classes include `alnum`, `alpha`, `digit`, `lower`, `punct`, ...",
