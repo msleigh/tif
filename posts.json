@@ -1222,7 +1222,7 @@
     {
         "content": "Crossword help one-liner in #bash:\n\n    function xwrd() { grep \"^${1}$\" /usr/share/dict/words; }\n\nthen, e.g.:\n\n    $ xwrd hell.\n    hello\n    helly\n\nor:\n\n    $ xwrd w...d\n    waged\n    waird\n    waled\n    [etc.]\n",
         "id": 246,
-        "status": "unposted"
+        "status": "posted"
     },
     {
         "content": "List all defined functions in the current environment with `declare -F`. Use `declare -f` to list all the functions in full (i.e. including definitions).\n#bash",
