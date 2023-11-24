@@ -1268,5 +1268,25 @@
         "content": "LaTex math mode \"much greater than\" symbol: `\\gg`",
         "id": 255,
         "status": "unposted"
+    },
+    {
+        "content": "Compare tar file with original folder it was created from:\n\n    $ tar czf folder.tar.gz folder\n    $ tar df folder.tar.gz # No output (success)\n    $ rm folder/content1\n    $ echo \"new\" >> folder/content2\n    $ tar df folder.tar.gz\n    gtar: folder/content1: Warning: Cannot stat: No such file or directory\n    folder/content2: Mod time differs\n    folder/content2: Size differs\n\nNB won't report new data in `folder` that isn't in the archive.\n\nOn #MacOS will require `gtar`.",
+        "id": 256,
+        "status": "unposted"
+    },
+    {
+        "content": "Add vertical lines to a #matplotlib plot:\n\n    import matplotlib.pyplot as plt\n    plt.axvline(x=0.5)\n\n#python\n",
+        "id": 257,
+        "status": "unposted"
+    },
+    {
+        "content": "test",
+        "id": 258,
+        "status": "unposted"
+    },
+    {
+        "content": "test",
+        "id": 259,
+        "status": "unposted"
     }
 ]
