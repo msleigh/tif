@@ -1248,5 +1248,25 @@
         "content": "Test a PHP website locally:\n\n    brew install php # (For MacOS)\n    cd path/to/website # Must contain index.php\n    php -S localhost:8000\n\nThen navigate to http://localhost:8000 in a browser.\n",
         "id": 251,
         "status": "posted"
+    },
+    {
+        "content": "List the contents of a `.zip` file with P7zip:\n\n    $ 7z l <zip_file>\n\nhttps://github.com/p7zip-project/p7zip",
+        "id": 252,
+        "status": "unposted"
+    },
+    {
+        "content": "Unzip a `.zip` file with P7zip:\n\n    $ 7z e <zip-file>\n",
+        "id": 253,
+        "status": "unposted"
+    },
+    {
+        "content": "Write a tilde in LaTeX (math mode): `$\\sim$`",
+        "id": 254,
+        "status": "unposted"
+    },
+    {
+        "content": "LaTex math mode \"much greater than\" symbol: `\\gg`",
+        "id": 255,
+        "status": "unposted"
     }
 ]
